@@ -226,9 +226,9 @@ function findSimilarOffers(offer) {
   });
 
   return scored
-    .filter(s => s.historical_outcome && s.simScore > 0)
+    .filter(s => s.historical_outcome && s.simScore >= 40)
     .sort((a,b) => b.simScore - a.simScore)
-    .slice(0, 3);
+    .slice(0, 2);
 }
 
 function openDrawer(offer, isHistorical) {
