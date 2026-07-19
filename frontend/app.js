@@ -355,9 +355,9 @@ function renderDrawerContent(offer, isHistorical) {
 
     hoStrip = `
       <section class="outcome-strip">
-        <div><span>Arz Fiyatı</span><strong>${offer.ipo_price_tl ? fmt(offer.ipo_price_tl)+' ₺' : '—'}</strong></div>
+        <div><span>Arz Fiyatı</span><strong style="white-space:nowrap">${offer.ipo_price_tl ? fmt(offer.ipo_price_tl)+'&nbsp;₺' : '—'}</strong></div>
         <div><span>Max Tavan (%)</span><strong style="color:${returnColor(maxTavanPct)}">${maxTavanPct != null ? '%'+fmt(maxTavanPct) : '—'}</strong></div>
-        <div><span>Max TL Kâr</span><strong style="color:${returnColor(maxTlKar)}">${maxTlKar != null ? '+'+fmt(Math.round(maxTlKar))+' ₺' : '—'}</strong></div>
+        <div><span>Max TL Kâr</span><strong style="color:${returnColor(maxTlKar)};white-space:nowrap">${maxTlKar != null ? '+'+fmt(Math.round(maxTlKar))+'&nbsp;₺' : '—'}</strong></div>
         <div><span>Arz→Bugün</span><strong style="color:${returnColor(ho.return_since_ipo_pct)}">${fmtPct(ho.return_since_ipo_pct)}</strong></div>
         <p>Puan yalnızca arz tarihinden önceki gözlemlerle hesaplanmıştır.</p>
       </section>`;
@@ -594,7 +594,7 @@ function renderHistory() {
       const yatirilanTl = Math.floor(lotPerPerson) * offer.ipo_price_tl;
       maxTlKar = yatirilanTl * (maxTavanPct / 100);
     }
-    const maxTlKarText = maxTlKar != null ? `+${fmt(Math.round(maxTlKar))} ₺` : '—';
+    const maxTlKarText = maxTlKar != null ? `+${fmt(Math.round(maxTlKar))}&nbsp;₺` : '—';
 
     row.innerHTML = `
       <td style="color:var(--accent);font-weight:700;font-family:'JetBrains Mono',monospace">${offer.ticker}</td>
@@ -605,7 +605,7 @@ function renderHistory() {
       <td style="font-size:12px;line-height:1.6">${partHTML}</td>
       <td style="color:${returnColor(maxTavanPct)};font-weight:600">${maxTavanText}</td>
       <td style="color:${returnColor(outcome.return_since_ipo_pct)};font-weight:600">${fmtPct(outcome.return_since_ipo_pct)}</td>
-      <td style="text-align:right;color:${returnColor(maxTlKar)};font-weight:600">${maxTlKarText}</td>
+      <td style="text-align:right;color:${returnColor(maxTlKar)};font-weight:600;white-space:nowrap">${maxTlKarText}</td>
     `;
 
     const open = () => {
