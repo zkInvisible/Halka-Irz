@@ -63,13 +63,13 @@ def create_app() -> Flask:
         
         vote_record = Vote.query.filter_by(ticker=ticker).first()
         if not vote_record:
-            vote_record = Vote(ticker=ticker)
+            vote_record = Vote(ticker=ticker, upvotes=0, downvotes=0)
             db.session.add(vote_record)
             
         if vote_type == "up":
-            vote_record.upvotes += 1
+            vote_record.upvotes = (vote_record.upvotes or 0) + 1
         elif vote_type == "down":
-            vote_record.downvotes += 1
+            vote_record.downvotes = (vote_record.downvotes or 0) + 1
             
         db.session.commit()
         return jsonify({"success": True, "upvotes": vote_record.upvotes, "downvotes": vote_record.downvotes})
