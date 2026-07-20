@@ -319,7 +319,7 @@ function renderDrawerContent(offer, isHistorical) {
   const fin = offer.financials || {};
 
   // Build components HTML
-  const compsHtml = (a.components || []).map(c => {
+  let compsHtml = (a.components || []).map(c => {
     const known = c.score != null;
     const bp    = known ? c.score : 0;
     const bs    = bp >= 70 ? 'background:linear-gradient(90deg,var(--accent),var(--blue))'
@@ -337,6 +337,20 @@ function renderDrawerContent(offer, isHistorical) {
       <small>Kanıt kapsamı: %${c.coverage_pct}</small>${notes}
     </div>`;
   }).join('');
+
+  const coverage = a.evidence_coverage_pct;
+  const knownScore = a.known_data_score;
+  const evScore = a.evidence_score;
+
+  if (coverage != null && coverage < 100 && knownScore != null && evScore != null && Math.abs(knownScore - evScore) >= 1) {
+    compsHtml += `
+      <div style="margin-top:24px;padding:14px;background:rgba(255,190,85,0.08);border:1px dashed rgba(255,190,85,0.3);border-radius:8px;font-size:12.5px;color:var(--text-secondary);line-height:1.5;">
+        <strong style="color:var(--amber);font-size:14px;display:block;margin-bottom:6px;">🤔 Puan Ortalaması Neden Farklı?</strong>
+        Halka arz belgelerinde eksik veya teyit edilemeyen veriler (Erişilen Veri: %${coverage.toFixed(1)}) "varsayılan olarak iyi" kabul edilmemek adına nötr 50 puana çekilir.<br><br>
+        Bulunan güncel verilerin saf ortalaması <strong style="color:var(--text-primary)">${knownScore.toFixed(1)}</strong> iken, bilmediğimiz gizli risk payları nedeniyle şirketin genel güvenilirlik puanı <strong style="color:var(--text-primary)">${evScore.toFixed(1)}</strong> seviyesine temkinli olarak dengelenmiştir.
+      </div>
+    `;
+  }
 
   // Source links
   const unique = new Map();
