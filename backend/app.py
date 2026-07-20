@@ -1,0 +1,102 @@
+"""Yerel web arayüzü için Flask API ve statik dosya sunucusu."""
+
+from __future__ import annotations
+
+import os
+import sys
+import threading
+import time
+from pathlib import Path
+
+import requests
+from flask import Flask, jsonify, send_from_directory
+
+BASE_DIR = Path(__file__).resolve().parent
+FRONTEND_DIR = BASE_DIR.parent / "frontend"
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
+
+from data.sources import SourceError
+from main import load_report, refresh_report
+
+
+def create_app() -> Flask:
+    app = Flask(__name__)
+
+    @app.get("/")
+    def index():
+        return send_from_directory(FRONTEND_DIR, "index.html")
+
+    @app.get("/<path:filename>")
+    def frontend_asset(filename: str):
+        return send_from_directory(FRONTEND_DIR, filename)
+
+    @app.get("/api/report")
+    def report():
+        current = load_report()
+        if not current:
+            try:
+                current = refresh_report()
+            except SourceError as error:
+                return jsonify({"error": str(error)}), 503
+            except Exception as error:
+                import traceback
+                traceback.print_exc()
+                return jsonify({"error": f"Sistem Hatası: {str(error)}"}), 500
+        return jsonify(current)
+
+    # Refresh rate limit variables
+    last_manual_refresh = 0
+
+    @app.post("/api/refresh")
+    def refresh():
+        nonlocal last_manual_refresh
+        now = time.time()
+        # 5 minute cooldown
+        if now - last_manual_refresh < 300:
+            return jsonify({"error": "Spam koruması: En fazla 5 dakikada bir veri çekebilirsiniz.", "cooldown": 300 - (now - last_manual_refresh)}), 429
+            
+        try:
+            res = refresh_report(force_market_refresh=True)
+            last_manual_refresh = now
+            return jsonify(res)
+        except SourceError as error:
+            return jsonify({"error": str(error)}), 503
+        except Exception as error:
+            import traceback
+            traceback.print_exc()
+            return jsonify({"error": f"Sistem Hatası: {str(error)}"}), 500
+
+    # Background thread for keep-alive and daily auto-refresh
+    def background_tasks():
+        import datetime
+        url = os.environ.get("RENDER_EXTERNAL_URL", "http://127.0.0.1:5050")
+        last_refresh_date = None
+        
+        while True:
+            time.sleep(14 * 60)  # Ping every 14 minutes
+            try:
+                requests.get(url, timeout=10)
+            except Exception:
+                pass
+                
+            # Her aksam 21:00'da (Turkiye Saati) yenile
+            tz_tr = datetime.timezone(datetime.timedelta(hours=3))
+            now_tr = datetime.datetime.now(tz_tr)
+            
+            if now_tr.hour >= 21 and last_refresh_date != now_tr.date():
+                print(f"Running daily auto-refresh at {now_tr.strftime('%H:%M')}...")
+                try:
+                    refresh_report(force_market_refresh=True)
+                    last_refresh_date = now_tr.date()
+                except Exception as e:
+                    print(f"Auto-refresh failed: {e}")
+
+    threading.Thread(target=background_tasks, daemon=True).start()
+
+    return app
+
+app = create_app()
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5050, debug=False)
