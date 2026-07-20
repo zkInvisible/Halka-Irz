@@ -543,8 +543,7 @@ function renderDrawerContent(offer, isHistorical) {
       },
       options: {
         responsive: true,
-        maintainAspectRatio: false,
-        layout: { padding: 25 },
+        layout: { padding: 5 },
         scales: {
           r: {
             min: 0, max: 100,
