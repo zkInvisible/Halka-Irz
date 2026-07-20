@@ -417,7 +417,13 @@ function renderDrawerContent(offer, isHistorical) {
   let hoStrip = '';
   if (ho) {
     const streak = ho.max_limit_up_streak;
-    const maxTavanPct = streak != null ? (Math.pow(1.10, streak) - 1) * 100 : null;
+    let maxTavanPct = streak != null ? (Math.pow(1.10, streak) - 1) * 100 : null;
+    let isExact = false;
+    
+    if (ho.is_streak_active && ho.return_since_ipo_pct != null) {
+      maxTavanPct = ho.return_since_ipo_pct;
+      isExact = true;
+    }
     
     let maxTlKar = null;
     if (maxTavanPct != null && offer.ipo_price_tl) {
@@ -439,7 +445,7 @@ function renderDrawerContent(offer, isHistorical) {
     hoStrip = `
       <section class="outcome-strip" data-active="${ho.is_streak_active ? 'true' : 'false'}">
         <div><span>Arz Fiyatı</span><strong style="white-space:nowrap">${offer.ipo_price_tl ? fmt(offer.ipo_price_tl)+'&nbsp;₺' : '—'}</strong></div>
-        <div><span>Max Tavan (%)</span><strong style="color:${returnColor(maxTavanPct)}">${maxTavanPct != null ? '%'+fmt(maxTavanPct) : '—'}</strong></div>
+        <div><span>Max Tavan (%)</span><strong style="color:${returnColor(maxTavanPct)}">${maxTavanPct != null ? (isExact ? '' : '~') + '%'+fmt(maxTavanPct) : '—'}</strong></div>
         ${ho.is_streak_active ? `<div><span>Toplam El Değişim</span><strong style="color:${ho.latest_turnover_pct >= 15 ? 'var(--red)' : 'var(--text-primary)'}">${ho.latest_turnover_pct != null ? '%'+fmt(ho.latest_turnover_pct) : '—'}</strong></div>` : ''}
         <div><span>Max TL Kâr</span><strong style="color:${returnColor(maxTlKar)};white-space:nowrap">${maxTlKar != null ? '+'+fmt(Math.round(maxTlKar))+'&nbsp;₺' : '—'}</strong></div>
         <div><span>Arz→Bugün</span><strong style="color:${returnColor(ho.return_since_ipo_pct)}">${fmtPct(ho.return_since_ipo_pct)}</strong></div>
