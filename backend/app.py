@@ -70,6 +70,10 @@ def create_app() -> Flask:
             vote_record.upvotes = (vote_record.upvotes or 0) + 1
         elif vote_type == "down":
             vote_record.downvotes = (vote_record.downvotes or 0) + 1
+        elif vote_type == "remove_up":
+            vote_record.upvotes = max(0, (vote_record.upvotes or 0) - 1)
+        elif vote_type == "remove_down":
+            vote_record.downvotes = max(0, (vote_record.downvotes or 0) - 1)
             
         db.session.commit()
         return jsonify({"success": True, "upvotes": vote_record.upvotes, "downvotes": vote_record.downvotes})
