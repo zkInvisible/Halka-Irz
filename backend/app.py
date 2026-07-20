@@ -39,6 +39,10 @@ def create_app() -> Flask:
                 current = refresh_report()
             except SourceError as error:
                 return jsonify({"error": str(error)}), 503
+            except Exception as error:
+                import traceback
+                traceback.print_exc()
+                return jsonify({"error": f"Sistem Hatası: {str(error)}"}), 500
         return jsonify(current)
 
     # Refresh rate limit variables
@@ -58,6 +62,10 @@ def create_app() -> Flask:
             return jsonify(res)
         except SourceError as error:
             return jsonify({"error": str(error)}), 503
+        except Exception as error:
+            import traceback
+            traceback.print_exc()
+            return jsonify({"error": f"Sistem Hatası: {str(error)}"}), 500
 
     # Background thread for keep-alive and daily auto-refresh
     def background_tasks():
