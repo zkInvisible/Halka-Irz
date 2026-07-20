@@ -37,6 +37,9 @@ def create_app() -> Flask:
     if database_url.startswith("postgres://"):
         database_url = database_url.replace("postgres://", "postgresql://", 1)
         
+    if database_url.startswith("postgresql://"):
+        database_url = database_url.replace("postgresql://", "postgresql+pg8000://", 1)
+        
     app.config["SQLALCHEMY_DATABASE_URI"] = database_url
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
     db.init_app(app)
@@ -63,7 +66,7 @@ def create_app() -> Flask:
             vote_record = Vote(ticker=ticker)
             db.session.add(vote_record)
             
-        if vote_type == "up":
+            if vote_type == "up":
             vote_record.upvotes += 1
         elif vote_type == "down":
             vote_record.downvotes += 1
