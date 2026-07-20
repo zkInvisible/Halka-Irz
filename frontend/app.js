@@ -98,20 +98,30 @@ async function requestVotes() {
 
 async function submitVote(ticker, type) {
   const lsKey = `voted_${ticker}`;
-  if (localStorage.getItem(lsKey)) {
-    alert('Bu hisseye zaten oy verdiniz.');
+  const currentVote = localStorage.getItem(lsKey);
+  
+  let actionType = type;
+  if (currentVote === type) {
+    actionType = `remove_${type}`;
+  } else if (currentVote) {
+    alert('Önce mevcut oyunuzu geri almalısınız.');
     return;
   }
+
   try {
     const res = await fetch('/api/vote', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ticker, type })
+      body: JSON.stringify({ ticker, type: actionType })
     });
     if (res.ok) {
       const data = await res.json();
       state.votes[ticker] = { upvotes: data.upvotes, downvotes: data.downvotes };
-      localStorage.setItem(lsKey, type);
+      if (actionType.startsWith('remove_')) {
+        localStorage.removeItem(lsKey);
+      } else {
+        localStorage.setItem(lsKey, type);
+      }
       renderOffers();
     }
   } catch(e) { console.error('Oy gönderilemedi:', e); }
@@ -224,13 +234,9 @@ function renderOffers() {
     
     if (myVote === 'up') btnUp.classList.add('active');
     if (myVote === 'down') btnDown.classList.add('active');
-    if (myVote) {
-      btnUp.classList.add('disabled');
-      btnDown.classList.add('disabled');
-    } else {
-      btnUp.onclick = (e) => { e.stopPropagation(); submitVote(offer.ticker, 'up'); };
-      btnDown.onclick = (e) => { e.stopPropagation(); submitVote(offer.ticker, 'down'); };
-    }
+    
+    btnUp.onclick = (e) => { e.stopPropagation(); submitVote(offer.ticker, 'up'); };
+    btnDown.onclick = (e) => { e.stopPropagation(); submitVote(offer.ticker, 'down'); };
 
     card.classList.toggle('selected', offer.ticker === state.selectedTicker);
     card.style.animationDelay = `${i * 0.07}s`;
@@ -396,7 +402,15 @@ function renderDrawerContent(offer, isHistorical) {
   }
 
   // Radar chart data
-  const radarLabels = (a.components||[]).map(c => c.name);
+  const radarLabels = (a.components||[]).map(c => {
+    if (!c.name) return '';
+    if (c.name.length > 18 && c.name.includes(' ')) {
+      const words = c.name.split(' ');
+      const half = Math.ceil(words.length / 2);
+      return [words.slice(0, half).join(' '), words.slice(half).join(' ')];
+    }
+    return c.name;
+  });
   const radarData   = (a.components||[]).map(c => c.score ?? 0);
   const radarMax    = (a.components||[]).map(c => c.weight ?? 100);
 
