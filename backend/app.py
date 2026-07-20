@@ -66,7 +66,7 @@ def create_app() -> Flask:
             vote_record = Vote(ticker=ticker)
             db.session.add(vote_record)
             
-            if vote_type == "up":
+        if vote_type == "up":
             vote_record.upvotes += 1
         elif vote_type == "down":
             vote_record.downvotes += 1
