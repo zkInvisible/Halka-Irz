@@ -686,12 +686,13 @@ function renderHistory() {
 
       if (lotPerPerson) {
         if (lotPerPerson >= 1) {
-          partLine2 = `Kişi başı ~${fmt(Math.floor(lotPerPerson))} Lot`;
+          const tlAmount = Math.floor(lotPerPerson) * offer.ipo_price_tl;
+          partLine2 = `~${fmt(Math.floor(lotPerPerson))} Lot ${fmt(Math.round(tlAmount))} ₺`;
         } else {
-          partLine2 = `Kişi başı ~${Math.round(lotPerPerson * 100) / 100} Lot`;
+          partLine2 = `~${Math.round(lotPerPerson * 100) / 100} Lot`;
         }
       } else if (offer.retail_allocation_tl && offer.retail_allocation_tl < 1000000) {
-        partLine2 = `Kişi başı ${fmt(offer.retail_allocation_tl)} ₺`;
+        partLine2 = `${fmt(offer.retail_allocation_tl)} ₺`;
       }
     } else {
       // Katılımcı sayısı yoksa sadece Limitsiz yaz (Kullanıcı isteği)
