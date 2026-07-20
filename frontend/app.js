@@ -645,7 +645,10 @@ function renderHistory() {
         lot = ((o.offer_size_mn_tl * 1000000) * (o.retail_allocation_pct / 100) / o.ipo_price_tl) / o.participant_count;
       }
       if (lot && lot >= 1 && o.historical_outcome?.max_limit_up_streak != null) {
-        const tPct = (Math.pow(1.10, o.historical_outcome.max_limit_up_streak) - 1) * 100;
+        let tPct = (Math.pow(1.10, o.historical_outcome.max_limit_up_streak) - 1) * 100;
+        if (o.historical_outcome.is_streak_active && o.historical_outcome.return_since_ipo_pct != null) {
+          tPct = o.historical_outcome.return_since_ipo_pct;
+        }
         ytdTotal += (Math.floor(lot) * o.ipo_price_tl) * (tPct / 100);
       }
     }
@@ -703,8 +706,14 @@ function renderHistory() {
 
     // Max tavan % hesapla: bileşik getiri formülü
     const streak = outcome.max_limit_up_streak;
-    const maxTavanPct = streak != null ? (Math.pow(1.10, streak) - 1) * 100 : null;
-    const maxTavanText = maxTavanPct != null ? `%${fmt(maxTavanPct)}` : '—';
+    let maxTavanPct = streak != null ? (Math.pow(1.10, streak) - 1) * 100 : null;
+    let isExact = false;
+    
+    if (outcome.is_streak_active && outcome.return_since_ipo_pct != null) {
+      maxTavanPct = outcome.return_since_ipo_pct;
+      isExact = true;
+    }
+    const maxTavanText = maxTavanPct != null ? `${isExact ? '' : '~'}%${fmt(maxTavanPct)}` : '—';
 
     let maxTlKar = null;
     if (lotPerPerson && lotPerPerson >= 1 && offer.ipo_price_tl && maxTavanPct != null) {
