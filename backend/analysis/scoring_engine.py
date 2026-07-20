@@ -222,7 +222,7 @@ def _offer_component(offer: dict[str, Any]) -> dict[str, Any]:
     support_score = None
     if price_support:
         if "planlanmam" in price_support or "yok" in price_support:
-            support_score = 20
+            support_score = 15  # Fiyat istikrarı planlanmıyorsa hafif-orta ceza
         elif any(token in price_support for token in ("30 gün", "45 gün")):
             support_score = 85
         elif any(token in price_support for token in ("15 gün", "%20", "%10")):
@@ -239,7 +239,8 @@ def _offer_component(offer: dict[str, Any]) -> dict[str, Any]:
         growth_hits = sum(word in use_of_proceeds for word in growth_words)
         debt_hits = sum(word in use_of_proceeds for word in debt_words)
         dividend_hits = sum(word in use_of_proceeds for word in dividend_words)
-        proceeds_score = _clamp(45 + growth_hits * 8 - debt_hits * 10 - dividend_hits * 14)
+        # Dengeli nominal değerler (Aşırı ceza uygulanmaz, ancak etkisi korunur)
+        proceeds_score = _clamp(45 + growth_hits * 10 - debt_hits * 15 - dividend_hits * 20)
 
     # Emsal değerleme
     valuation_score = None
