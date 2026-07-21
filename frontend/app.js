@@ -912,8 +912,6 @@ function renderBrokers() {
     row.addEventListener('click', () => toggleBrokerExpand(idx, broker, row));
     body.append(row);
   });
-
-  renderBrokerChart(brokers);
 }
 
 function toggleBrokerExpand(idx, broker, row) {
