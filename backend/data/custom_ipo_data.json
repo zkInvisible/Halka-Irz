@@ -1,0 +1,53 @@
+﻿{
+  "SSAAT": {
+    "participant_count": null,
+    "retail_allocation_tl": 1000000
+  },
+  "SARAE": {
+    "participant_count": 728823,
+    "retail_allocation_tl": 12460
+  },
+  "ISVEA": {
+    "retail_allocation_tl": 1003.1999999999999
+  },
+  "EKIM": {
+    "participant_count": 706837,
+    "retail_allocation_tl": 3691
+  },
+  "GOLDA": {
+    "participant_count": 749674,
+    "retail_allocation_tl": 1076.4
+  },
+  "ORZAX": {
+    "participant_count": 973805,
+    "retail_allocation_tl": 2553
+  },
+  "SOHOE": {
+    "participant_count": 660121,
+    "retail_allocation_tl": 2280
+  },
+  "BETAE": {
+    "participant_count": 1103933,
+    "retail_allocation_tl": 1120
+  },
+  "EKDMR": {
+    "participant_count": 796542,
+    "retail_allocation_tl": 1170
+  },
+  "AAGYO": {
+    "participant_count": 917413,
+    "retail_allocation_tl": 3060
+  },
+  "MCARD": {
+    "participant_count": 964747,
+    "retail_allocation_tl": 720
+  },
+  "LXGYO": {
+    "participant_count": 890173,
+    "retail_allocation_tl": 650.7
+  },
+  "GENKM": {
+    "participant_count": 805312,
+    "retail_allocation_tl": 1705
+  }
+}

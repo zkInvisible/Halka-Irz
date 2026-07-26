@@ -1,0 +1,4263 @@
+{
+  "generated_at": "2026-07-21T13:46:42+00:00",
+  "reference_date": "2026-07-21",
+  "status": {
+    "mode": "refreshed",
+    "candidate_count": 82,
+    "eligible_offer_count": 57,
+    "outcome_count": 52,
+    "source_failures": 0,
+    "price_unavailable_count": 5,
+    "price_method": "Halka arz fiyatından, ilk işlem gününü 1. seans kabul eden 5. kapanışa getiri; ilk 20 seanstaki azami düşüş."
+  },
+  "outcomes": [
+    {
+      "ticker": "SARAE",
+      "company": "Şa-Ra Enerji İnşaat Tic. ve San. A.Ş.",
+      "listing_date": "2026-07-17",
+      "return_5d_pct": 33.07,
+      "return_20d_pct": null,
+      "max_drawdown_20d_pct": null,
+      "max_limit_up_streak": 3,
+      "is_streak_active": true,
+      "max_return_15d_pct": 33.07,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 93.15,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 33.07,
+      "latest_turnover_pct": 7.04,
+      "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "tera",
+      "sector": "Enerji",
+      "source_url": "https://halkarz.com/sa-ra-enerji-insaat-tic-ve-san-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/SARAE.IS/history",
+      "ipo_price_tl": 70.0,
+      "fifth_session_date": "2026-07-21",
+      "observation_count": 3,
+      "is_partial_5d": true,
+      "offer_snapshot": {
+        "ticker": "SARAE",
+        "company": "Şa-Ra Enerji İnşaat Tic. ve San. A.Ş.",
+        "calendar_date_text": "8-9-10 Temmuz 2026",
+        "start_date": "2026-07-08",
+        "end_date": "2026-07-10",
+        "detail_url": "https://halkarz.com/sa-ra-enerji-insaat-tic-ve-san-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Enerji",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 70.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 89000000.0,
+        "primary_lots": 44500000.0,
+        "secondary_lots": 35600000.0,
+        "retail_allocation_pct": 38.0,
+        "retail_allocation_tl": 12460,
+        "participant_count": 728823.0,
+        "float_pct": 20.02,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %15 Yatırım harcamaları. - %55 İşletme sermayesi. - %30 Finansal borç ödemesi. * İzahname, Sayfa 296.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 293.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 294.",
+        "offer_size_mn_tl": 6200.0,
+        "financials": {
+          "as_of": "2026-03-31",
+          "revenue_mn_tl": 3300.0,
+          "gross_profit_mn_tl": 904.9,
+          "gross_margin": 0.2742121212121212,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9f0a085b019f28b8c39d7c50",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9f0a085b019f28b4cd137c1d",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9f0a085b019f28b1f84d7c00",
+            "tier": "official"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "SSAAT",
+      "company": "Saat ve Saat San. ve Tic. A.Ş.",
+      "listing_date": "2026-07-16",
+      "return_5d_pct": -24.07,
+      "return_20d_pct": null,
+      "max_drawdown_20d_pct": null,
+      "max_limit_up_streak": 0,
+      "is_streak_active": false,
+      "max_return_15d_pct": -10.0,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 42.52,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -24.07,
+      "latest_turnover_pct": 296.53,
+      "broker": "Garanti Yatırım Menkul Kıymetler A.Ş. Halk Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "garanti",
+      "sector": "Tüketim",
+      "source_url": "https://halkarz.com/saat-ve-saat-san-ve-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/SSAAT.IS/history",
+      "ipo_price_tl": 56.0,
+      "fifth_session_date": "2026-07-21",
+      "observation_count": 4,
+      "is_partial_5d": true,
+      "offer_snapshot": {
+        "ticker": "SSAAT",
+        "company": "Saat ve Saat San. ve Tic. A.Ş.",
+        "calendar_date_text": "6-7-8 Temmuz 2026",
+        "start_date": "2026-07-06",
+        "end_date": "2026-07-08",
+        "detail_url": "https://halkarz.com/saat-ve-saat-san-ve-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Tüketim",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 56.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Garanti Yatırım Menkul Kıymetler A.Ş. Halk Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 66944955.0,
+        "primary_lots": 40166973.0,
+        "secondary_lots": 40166973.0,
+        "retail_allocation_pct": 60.0,
+        "retail_allocation_tl": 1000000,
+        "participant_count": 693013.0,
+        "float_pct": 12.3,
+        "stated_discount_pct": 37.01,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %20 Finansal borçların ödenmesi. - %80 İşletme sermayesi. * İzahname, Sayfa 351.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %20'si. (Halk Yatırım Menkul Değerler A.Ş.) * İzahname, Sayfa 345.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 348.",
+        "offer_size_mn_tl": 4500.0,
+        "financials": {
+          "as_of": "2026-03-31",
+          "revenue_mn_tl": 3300.0,
+          "gross_profit_mn_tl": 1900.0,
+          "gross_margin": 0.5757575757575758,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9f0a085b019f2484de57414e",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9f0a0a59019f23690bf231b3",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.garantibbvayatirim.com.tr/medium/document-file-1827.vsf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "ISVEA",
+      "company": "İsvea Seramik ve Banyo Ürünleri Sanayi A.Ş.",
+      "listing_date": "2026-07-10",
+      "return_5d_pct": 31.67,
+      "return_20d_pct": null,
+      "max_drawdown_20d_pct": null,
+      "max_limit_up_streak": 3,
+      "is_streak_active": false,
+      "max_return_15d_pct": 59.23,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 33.28,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 59.23,
+      "latest_turnover_pct": 316.05,
+      "broker": "Halk Yatırım Menkul Değerler A.Ş. Ahlatcı Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "halk",
+      "sector": "Sanayi",
+      "source_url": "https://halkarz.com/isvea-seramik-ve-banyo-urunleri-sanayi-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/ISVEA.IS/history",
+      "ipo_price_tl": 20.9,
+      "fifth_session_date": "2026-07-17",
+      "observation_count": 7,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "ISVEA",
+        "company": "İsvea Seramik ve Banyo Ürünleri Sanayi A.Ş.",
+        "calendar_date_text": "1-2-3 Temmuz 2026",
+        "start_date": "2026-07-01",
+        "end_date": "2026-07-03",
+        "detail_url": "https://halkarz.com/isvea-seramik-ve-banyo-urunleri-sanayi-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Sanayi",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 20.9,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Halk Yatırım Menkul Değerler A.Ş. Ahlatcı Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 67000000.0,
+        "primary_lots": 60000000.0,
+        "secondary_lots": 7000000.0,
+        "retail_allocation_pct": 60.0,
+        "retail_allocation_tl": 1003.1999999999999,
+        "participant_count": 901425.0,
+        "float_pct": 23.93,
+        "stated_discount_pct": 27.03,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %10-15 Öztüketime yönelik yenilenebilir enerji yatırımları. - %20-30 Makine ve ekipman yatırımları. - %10-15 Kiralama yoluyla elde edilen makine ve teçhizatların satın alma yatırımları. - %15-25 Finansal borçluluğun azaltılması. - %15-25 İşletme sermayesi. * İzahname, Sayfa 271.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %20'si. (Halk Yatırım Menkul Değerler A.Ş.) * İzahname, Sayfa 266.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 267.",
+        "offer_size_mn_tl": 1400.0,
+        "financials": {
+          "as_of": "2026-03-31",
+          "revenue_mn_tl": 584.2,
+          "gross_profit_mn_tl": 158.7,
+          "gross_margin": 0.2716535433070866,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9ec11d3d019efff937cb5030",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9ec11d3d019efffe1d17505f",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.isvea.com.tr/_files/ugd/85510a_faad63220332453fb28fec7a55769106.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "EKIM",
+      "company": "(Intercity) Ekim Turizm Tic. ve San. A.Ş.",
+      "listing_date": "2026-07-09",
+      "return_5d_pct": -20.69,
+      "return_20d_pct": null,
+      "max_drawdown_20d_pct": null,
+      "max_limit_up_streak": 0,
+      "is_streak_active": false,
+      "max_return_15d_pct": -9.98,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 22.76,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -24.79,
+      "latest_turnover_pct": 425.72,
+      "broker": "Ak Yatırım Menkul Değerler A.Ş. Vakıf Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "ak",
+      "sector": "Tüketim",
+      "source_url": "https://halkarz.com/ekim-turizm-tic-ve-san-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/EKIM.IS/history",
+      "ipo_price_tl": 30.26,
+      "fifth_session_date": "2026-07-16",
+      "observation_count": 8,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "EKIM",
+        "company": "(Intercity) Ekim Turizm Tic. ve San. A.Ş.",
+        "calendar_date_text": "1-2-3 Temmuz 2026",
+        "start_date": "2026-07-01",
+        "end_date": "2026-07-03",
+        "detail_url": "https://halkarz.com/ekim-turizm-tic-ve-san-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Tüketim",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 30.26,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Ak Yatırım Menkul Değerler A.Ş. Vakıf Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 162000000.0,
+        "primary_lots": 13200000.0,
+        "secondary_lots": 30000000.0,
+        "retail_allocation_pct": 70.0,
+        "retail_allocation_tl": 3691,
+        "participant_count": 706837.0,
+        "float_pct": 19.47,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %100 Kiralamada kullanılacak kara araçlarının satın alınması.. * İzahname, Sayfa 300.",
+        "price_stabilization": "Fiyat İstikrarı - 15 gün. * İzahname, Sayfa 295.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 296.",
+        "offer_size_mn_tl": 4900.0,
+        "financials": {
+          "as_of": "2026-03-31",
+          "revenue_mn_tl": 2900.0,
+          "gross_profit_mn_tl": 799.0,
+          "gross_margin": 0.27551724137931033,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9ec11d3d019f051c0e427376",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.vakifyatirim.com.tr/assets/file/news_26_06_2026_192.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "GOLDA",
+      "company": "Golda Gıda San. ve Tic. A.Ş.",
+      "listing_date": "2026-07-08",
+      "return_5d_pct": 60.87,
+      "return_20d_pct": null,
+      "max_drawdown_20d_pct": null,
+      "max_limit_up_streak": 8,
+      "is_streak_active": false,
+      "max_return_15d_pct": 114.02,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 17.73,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 92.72,
+      "latest_turnover_pct": 145.17,
+      "broker": "Gedik Yatırım Menkul Değerler A.Ş. Misyon Yatırım Bankası A.Ş.",
+      "broker_key": "gedik",
+      "sector": "Tüketim",
+      "source_url": "https://halkarz.com/golda-gida-san-ve-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/GOLDA.IS/history",
+      "ipo_price_tl": 9.2,
+      "fifth_session_date": "2026-07-14",
+      "observation_count": 9,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "GOLDA",
+        "company": "Golda Gıda San. ve Tic. A.Ş.",
+        "calendar_date_text": "1-2 Temmuz 2026",
+        "start_date": "2026-07-01",
+        "end_date": "2026-07-02",
+        "detail_url": "https://halkarz.com/golda-gida-san-ve-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Tüketim",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 9.2,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Gedik Yatırım Menkul Değerler A.Ş. Misyon Yatırım Bankası A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 87499998.0,
+        "primary_lots": 50000000.0,
+        "secondary_lots": 37499998.0,
+        "retail_allocation_pct": null,
+        "retail_allocation_tl": 1076.4,
+        "participant_count": 749674.0,
+        "float_pct": 35.0,
+        "stated_discount_pct": 30.7,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %50-60 Kapasite artışı, modernizasyon. - %40-50 İşletme sermayesi. * İzahname, Sayfa 243.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %20'si. (Gedik Yatırım Menkul Değerler A.Ş.) * İzahname, Sayfa 241.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 242.",
+        "offer_size_mn_tl": 804.0,
+        "financials": {
+          "as_of": "2026-03-31",
+          "revenue_mn_tl": 685.4,
+          "gross_profit_mn_tl": 90.9,
+          "gross_margin": 0.13262328567259996,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9ec11d42019f02e9e4f7602e",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://golda.com.tr/storage/investor/files/golda-gida-fiyat-tespit-raporu-1608161203.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://golda.com.tr/storage/investor/files/fon-kullanim-yeri-raporu-257884454.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "ORZAX",
+      "company": "(Orzax) Orzaks İlaç ve Kimya San. Tic. A.Ş.",
+      "listing_date": "2026-07-07",
+      "return_5d_pct": 42.1,
+      "return_20d_pct": null,
+      "max_drawdown_20d_pct": 8.07,
+      "max_limit_up_streak": 3,
+      "is_streak_active": false,
+      "max_return_15d_pct": 56.23,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 99.1,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 43.62,
+      "latest_turnover_pct": 877.27,
+      "broker": "İnfo Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "info",
+      "sector": "Sanayi",
+      "source_url": "https://halkarz.com/orzaks-ilac-ve-kimya-san-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/ORZAX.IS/history",
+      "ipo_price_tl": 69.0,
+      "fifth_session_date": "2026-07-13",
+      "observation_count": 10,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "ORZAX",
+        "company": "(Orzax) Orzaks İlaç ve Kimya San. Tic. A.Ş.",
+        "calendar_date_text": "29-30 Haziran, 1 Temmuz 2026",
+        "start_date": "2026-06-29",
+        "end_date": "2026-07-01",
+        "detail_url": "https://halkarz.com/orzaks-ilac-ve-kimya-san-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Sanayi",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 69.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "İnfo Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 52500000.0,
+        "primary_lots": 31500000.0,
+        "secondary_lots": 21000000.0,
+        "retail_allocation_pct": 57.0,
+        "retail_allocation_tl": 2553,
+        "participant_count": 973805.0,
+        "float_pct": 15.51,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %50 Devam eden ve yeni yatırımların finasmanında. - %30 Finansal borç anapara ve faiz ödemelerinde. - %20 İşletme sermayesi. * İzahname, Sayfa 285.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 281.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 282.",
+        "offer_size_mn_tl": 3600.0,
+        "financials": {
+          "as_of": "2026-03-31",
+          "revenue_mn_tl": 2600.0,
+          "gross_profit_mn_tl": 1700.0,
+          "gross_margin": 0.6538461538461539,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9ec11d43019f000c0774485b",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9ec11d43019eff3a459940a5",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.orzax.com.tr/wp-content/uploads/2026/06/Orzaks-Fiyat-Tespit-Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://www.orzax.com.tr/wp-content/uploads/2026/06/Ek-3-Orzaks-31.03.2026-BDR.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu Sorumluluk Beyanı",
+            "url": "https://www.orzax.com.tr/wp-content/uploads/2026/06/Ek-8-Orzaks-Proforma-Finansal-Tablo-Enflasyonlu.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "SOHOE",
+      "company": "Soho Giyim ve Enerji A.Ş.",
+      "listing_date": "2026-07-06",
+      "return_5d_pct": -10.93,
+      "return_20d_pct": null,
+      "max_drawdown_20d_pct": 25.52,
+      "max_limit_up_streak": 1,
+      "is_streak_active": false,
+      "max_return_15d_pct": 10.0,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 12.29,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -18.07,
+      "latest_turnover_pct": 1220.96,
+      "broker": "İntegral Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "integral",
+      "sector": "Enerji",
+      "source_url": "https://halkarz.com/soho-giyim-ve-enerji-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/SOHOE.IS/history",
+      "ipo_price_tl": 15.0,
+      "fifth_session_date": "2026-07-10",
+      "observation_count": 11,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "SOHOE",
+        "company": "Soho Giyim ve Enerji A.Ş.",
+        "calendar_date_text": "30 Haziran, 1 Temmuz 2026",
+        "start_date": "2026-06-30",
+        "end_date": "2026-07-01",
+        "detail_url": "https://halkarz.com/soho-giyim-ve-enerji-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Enerji",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 15.0,
+        "distribution_method": "Eşit Dağıtım **",
+        "broker": "İntegral Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 100000000.0,
+        "primary_lots": 100000000.0,
+        "secondary_lots": null,
+        "retail_allocation_pct": null,
+        "retail_allocation_tl": 2280,
+        "participant_count": 660121.0,
+        "float_pct": 32.6,
+        "stated_discount_pct": 37.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %30 Mağazalaşma yatırımları. - %10 Markalaşma yatırımları. - %60 Kreasyon Yatırımları. * İzahname, Sayfa 208.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %10'u. * İzahname, Sayfa 206.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 207.",
+        "offer_size_mn_tl": 1500.0,
+        "financials": {
+          "as_of": "2026-03-31",
+          "revenue_mn_tl": 709.6,
+          "gross_profit_mn_tl": 274.0,
+          "gross_margin": 0.38613303269447574,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.sohocompany.com.tr/yukleme/evraklar/Tasarruf-Sahiplerine-Sat%C4%B1%C5%9F-Duyurusu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.sohocompany.com.tr/yukleme/evraklar/Soho-Giyim-ve-Enerji-A.%C5%9E._Fiyat-Tespit-Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.sohocompany.com.tr/yukleme/evraklar/Ek-8-Fon-Kullan%C4%B1m-Yeri-YK-ve-Rapor.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "BETAE",
+      "company": "Beta Enerji ve Teknoloji A.Ş.",
+      "listing_date": "2026-07-01",
+      "return_5d_pct": 60.87,
+      "return_20d_pct": null,
+      "max_drawdown_20d_pct": 17.73,
+      "max_limit_up_streak": 10,
+      "is_streak_active": false,
+      "max_return_15d_pct": 158.75,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 85.15,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 112.88,
+      "latest_turnover_pct": 757.28,
+      "broker": "Türkiye Sınai Kalkınma Bankası A.Ş. Ziraat Yatırım Menkul Değerler A.Ş. Yatırım Finansman Menkul Değerler A.Ş.",
+      "broker_key": "turkiye sinai kalkinma bankasi",
+      "sector": "Enerji",
+      "source_url": "https://halkarz.com/beta-enerji-ve-teknoloji-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/BETAE.IS/history",
+      "ipo_price_tl": 40.0,
+      "fifth_session_date": "2026-07-07",
+      "observation_count": 14,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "BETAE",
+        "company": "Beta Enerji ve Teknoloji A.Ş.",
+        "calendar_date_text": "23-24-25 Haziran 2026",
+        "start_date": "2026-06-23",
+        "end_date": "2026-06-25",
+        "detail_url": "https://halkarz.com/beta-enerji-ve-teknoloji-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Enerji",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 40.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Türkiye Sınai Kalkınma Bankası A.Ş. Ziraat Yatırım Menkul Değerler A.Ş. Yatırım Finansman Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 60750000.0,
+        "primary_lots": 55000000.0,
+        "secondary_lots": 5750000.0,
+        "retail_allocation_pct": 50.0,
+        "retail_allocation_tl": 1120,
+        "participant_count": 1103933.0,
+        "float_pct": 15.0,
+        "stated_discount_pct": 20.45,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %45 Büyüme yatırımlarının finansmanı. - %55 İşletme sermayesi. * İzahname, Sayfa 476.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. (Yatırım Finansman Menkul Değerler A.Ş.) * İzahname, Sayfa 470.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 472.",
+        "offer_size_mn_tl": 2400.0,
+        "financials": {
+          "as_of": "2026-03-31",
+          "revenue_mn_tl": 704.0,
+          "gross_profit_mn_tl": 158.0,
+          "gross_margin": 0.22443181818181818,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9ec11d3d019ed910f3ea7a2d",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://betaenerji.com/wp-content/uploads/2026/06/Beta-Enerji-Fiyat-Tespit-Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://betaenerji.com/wp-content/uploads/2026/05/8-Fonun-Kullanim-Yeri-Raporu-.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Finansal Tablolar ve Bağımsız Denetim Raporu",
+            "url": "https://betaenerji.com/wp-content/uploads/2026/05/2-Finansal-Tablolar-ve-Bagimsiz-Denetci-Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Sorumluluk Beyanı",
+            "url": "https://betaenerji.com/wp-content/uploads/2026/06/Beta_Sorumluluk-Beyani_31.03.2026-imzali.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "EKDMR",
+      "company": "Ekinciler Demir ve Çelik Sanayi A.Ş.",
+      "listing_date": "2026-05-22",
+      "return_5d_pct": 33.0,
+      "return_20d_pct": 34.56,
+      "max_drawdown_20d_pct": 14.67,
+      "max_limit_up_streak": 3,
+      "is_streak_active": false,
+      "max_return_15d_pct": 49.11,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 52.5,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 16.67,
+      "latest_turnover_pct": 2043.96,
+      "broker": "A1 Capital Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "a1 capital",
+      "sector": "Sanayi",
+      "source_url": "https://halkarz.com/ekinciler-demir-ve-celik-sanayi-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/EKDMR.IS/history",
+      "ipo_price_tl": 45.0,
+      "fifth_session_date": "2026-05-28",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "EKDMR",
+        "company": "Ekinciler Demir ve Çelik Sanayi A.Ş.",
+        "calendar_date_text": "13-14-15 Mayıs 2026",
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-15",
+        "detail_url": "https://halkarz.com/ekinciler-demir-ve-celik-sanayi-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Sanayi",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 45.0,
+        "distribution_method": "Eşit Dağıtım **",
+        "broker": "A1 Capital Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 52000000.0,
+        "primary_lots": 40000000.0,
+        "secondary_lots": 12000000.0,
+        "retail_allocation_pct": 40.0,
+        "retail_allocation_tl": 1170,
+        "participant_count": 791713.0,
+        "float_pct": 16.25,
+        "stated_discount_pct": 37.72,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %25 Yenilenebilir enerji yatırımları. - %40 Hammadde tedariki ve işletme sermayesi finansmanı. - %25 Yeşil çelik haddehane modernizayonu ve mevcut üretim tesislerinin kapasite artışı yatırımları. - %10 Kütük kaynatma sistemi yatırımı. * İzahname, Sayfa 253.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 247.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 249.",
+        "offer_size_mn_tl": 2300.0,
+        "financials": {
+          "as_of": null,
+          "revenue_mn_tl": 20800.0,
+          "gross_profit_mn_tl": 1500.0,
+          "gross_margin": 0.07211538461538461,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9d7b22d2019e0b05a77d7ada",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9d7b22d2019e0b0fece55587",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9d7b22d2019e0b0be4b954f6",
+            "tier": "official"
+          },
+          {
+            "name": "Finansal Tablolar ve Bağımsız Denetim Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9d7b22d2019e0b0973905460",
+            "tier": "official"
+          },
+          {
+            "name": "Bağımsız Denetim Sorumluluk Beyanı",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9d7b22d2019e0b0a2d815491",
+            "tier": "official"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "AAGYO",
+      "company": "Ağaoğlu Avrasya Gayrimenkul Yatırım Ortaklığı A.Ş.",
+      "listing_date": "2026-04-09",
+      "return_5d_pct": 3.7,
+      "return_20d_pct": -6.59,
+      "max_drawdown_20d_pct": 28.02,
+      "max_limit_up_streak": 2,
+      "is_streak_active": false,
+      "max_return_15d_pct": 20.95,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 14.58,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -30.9,
+      "latest_turnover_pct": 1107.72,
+      "broker": "İnfo Yatırım Menkul Değerler A.Ş. Vakıf Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "info",
+      "sector": "Finans",
+      "source_url": "https://halkarz.com/agaoglu-avrasya-gayrimenkul-yatirim-ortakligi-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/AAGYO.IS/history",
+      "ipo_price_tl": 21.1,
+      "fifth_session_date": "2026-04-15",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "AAGYO",
+        "company": "Ağaoğlu Avrasya Gayrimenkul Yatırım Ortaklığı A.Ş.",
+        "calendar_date_text": "1-2-3 Nisan 2026",
+        "start_date": "2026-04-01",
+        "end_date": "2026-04-03",
+        "detail_url": "https://halkarz.com/agaoglu-avrasya-gayrimenkul-yatirim-ortakligi-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Finans",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 21.1,
+        "distribution_method": "Eşit Dağıtım **",
+        "broker": "İnfo Yatırım Menkul Değerler A.Ş. Vakıf Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 176000000.0,
+        "primary_lots": 105652000.0,
+        "secondary_lots": 70348000.0,
+        "retail_allocation_pct": 63.0,
+        "retail_allocation_tl": 3060,
+        "participant_count": 917000.0,
+        "float_pct": 25.11,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %10-15 İşletme sermayesi. - %15-20 Finansal borçların ödenmesi. - %65-70 Yeni gayrimenkullere, gayrimenkule dayalı haklara, gayrimenkul yatırım fonlarına ve/veya gayrimenkul projelerine yapılacak yatırımların finansmanı. * İzahname, Sayfa 231.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 227.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 228.",
+        "offer_size_mn_tl": 3700.0,
+        "financials": {
+          "as_of": null,
+          "revenue_mn_tl": 1300.0,
+          "gross_profit_mn_tl": 831.1,
+          "gross_margin": 0.6393076923076924,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9cc9d175019d3026d6377e4a",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://agaoglugyo.com.tr/content/files/ek-9-fiyat-2918869c6bf65155b68.21028385.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://agaoglugyo.com.tr/content/files/ek-7-fon-k-383269c66a536bebe9.95087582.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://agaoglugyo.com.tr/content/files/ek-3-agaog-084469c66a4f5e2e04.15818458.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu Sorumluluk Beyanı",
+            "url": "https://agaoglugyo.com.tr/content/files/ek-4-bagim-6567369c66a4fbead40.28654596.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "MCARD",
+      "company": "(MetropolCard) Metropal Kurumsal Hizmetler A.Ş.",
+      "listing_date": "2026-03-11",
+      "return_5d_pct": 48.63,
+      "return_20d_pct": 131.5,
+      "max_drawdown_20d_pct": 18.86,
+      "max_limit_up_streak": 4,
+      "is_streak_active": false,
+      "max_return_15d_pct": 103.5,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 140.5,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 75.63,
+      "latest_turnover_pct": 2327.54,
+      "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "tera",
+      "sector": null,
+      "source_url": "https://halkarz.com/metropal-kurumsal-hizmetler-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/MCARD.IS/history",
+      "ipo_price_tl": 80.0,
+      "fifth_session_date": "2026-03-17",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "MCARD",
+        "company": "(MetropolCard) Metropal Kurumsal Hizmetler A.Ş.",
+        "calendar_date_text": "2-3-4 Mart 2026",
+        "start_date": "2026-03-02",
+        "end_date": "2026-03-04",
+        "detail_url": "https://halkarz.com/metropal-kurumsal-hizmetler-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": null,
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 80.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 18900000.0,
+        "primary_lots": 12600000.0,
+        "secondary_lots": 6300000.0,
+        "retail_allocation_pct": 48.0,
+        "retail_allocation_tl": 720,
+        "participant_count": 964747.0,
+        "float_pct": 20.41,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %25 Şirkete ait filo araçlarının yenilenmesi ve filonun genişletilmesi. - %15 Ar-Ge yatırımları. - %30 Yurt içi ve yurt dışı şirket kurulumu / ortaklıklar. - %30 İşletme sermayesi ve Şirket'in operasyonel faaliyetlerinin finansmanı. * İzahname, Sayfa 219.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 216.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 218.",
+        "offer_size_mn_tl": 1500.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 1600.0,
+          "gross_profit_mn_tl": 495.4,
+          "gross_margin": 0.309625,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9c81f417019c9b5be6071bea",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9c81f417019c9a3d04056dfe",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://cdn.metropolcard.com/wp-content/uploads/2026/02/MCARD-Onayli-izahname-EK4-Fon-Kullanim-Yeri-Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu 1",
+            "url": "https://cdn.metropolcard.com/wp-content/uploads/2026/02/Bagimsiz-Denetim-Raporu-31.12.2025.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu 2",
+            "url": "https://cdn.metropolcard.com/wp-content/uploads/2026/02/Bagimsiz-Denetim-Raporu-30.09.2025.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "LXGYO",
+      "company": "Luxera Gayrimenkul Yatırım Ortaklığı A.Ş.",
+      "listing_date": "2026-03-10",
+      "return_5d_pct": 60.83,
+      "return_20d_pct": 52.7,
+      "max_drawdown_20d_pct": 37.67,
+      "max_limit_up_streak": 7,
+      "is_streak_active": false,
+      "max_return_15d_pct": 110.62,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 13.17,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 9.29,
+      "latest_turnover_pct": 2344.98,
+      "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "tera",
+      "sector": "Finans",
+      "source_url": "https://halkarz.com/luxera-gayrimenkul-yatirim-ortakligi-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/LXGYO.IS/history",
+      "ipo_price_tl": 12.05,
+      "fifth_session_date": "2026-03-16",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "LXGYO",
+        "company": "Luxera Gayrimenkul Yatırım Ortaklığı A.Ş.",
+        "calendar_date_text": "2-3-4 Mart 2026",
+        "start_date": "2026-03-02",
+        "end_date": "2026-03-04",
+        "detail_url": "https://halkarz.com/luxera-gayrimenkul-yatirim-ortakligi-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Finans",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 12.05,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 120000000.0,
+        "primary_lots": 90000000.0,
+        "secondary_lots": 30000000.0,
+        "retail_allocation_pct": 40.0,
+        "retail_allocation_tl": 650.7,
+        "participant_count": 887852.0,
+        "float_pct": 36.36,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %100-85 Proje maliyetlerinin finansmanı. - %0-15 İşletme sermayesi. * İzahname, Sayfa 212.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %20'si. * İzahname, Sayfa 208.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 210.",
+        "offer_size_mn_tl": 1400.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 148.8,
+          "gross_profit_mn_tl": 115.2,
+          "gross_margin": 0.7741935483870968,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9c81f589019c8ac676fd2f68",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9c4c12c4019c7c1528da4fee",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://cdn.luxera.com.tr/uploads/yatirimci-iliskileri/halka-arz-dokumanlari/8luxeragyofonkullanimyeriraporu_2026-02-23_17-04-12_eaee31.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "GENKM",
+      "company": "Gentaş Kimya San. ve Tic. Pazarlama A.Ş.",
+      "listing_date": "2026-03-09",
+      "return_5d_pct": 44.91,
+      "return_20d_pct": 33.64,
+      "max_drawdown_20d_pct": 25.75,
+      "max_limit_up_streak": 4,
+      "is_streak_active": false,
+      "max_return_15d_pct": 61.0,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 12.25,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 11.36,
+      "latest_turnover_pct": 1562.8,
+      "broker": "Deniz Yatırım Menkul Kıymetler A.Ş.",
+      "broker_key": "deniz",
+      "sector": "Sanayi",
+      "source_url": "https://halkarz.com/gentas-kimya-san-ve-tic-pazarlama-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/GENKM.IS/history",
+      "ipo_price_tl": 11.0,
+      "fifth_session_date": "2026-03-13",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "GENKM",
+        "company": "Gentaş Kimya San. ve Tic. Pazarlama A.Ş.",
+        "calendar_date_text": "2-3 Mart 2026",
+        "start_date": "2026-03-02",
+        "end_date": "2026-03-03",
+        "detail_url": "https://halkarz.com/gentas-kimya-san-ve-tic-pazarlama-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Sanayi",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 11.0,
+        "distribution_method": "Eşit Dağıtım **",
+        "broker": "Deniz Yatırım Menkul Kıymetler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 124845000.0,
+        "primary_lots": 84000000.0,
+        "secondary_lots": 40845000.0,
+        "retail_allocation_pct": null,
+        "retail_allocation_tl": 1705,
+        "participant_count": 805312.0,
+        "float_pct": 20.5,
+        "stated_discount_pct": 29.5,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %45-55 İşletme sermayesi. - %15-25 Yeni pazarlara erişilmesi. - %15-25 Finansal borçluluğun azaltılması. - %5-15 Ürün araştırma ve geliştirmeleri. * İzahname, Sayfa 194.",
+        "price_stabilization": "Fiyat İstikrarı - 15 gün. * Brüt halka arz gelirinin %20'si. * İzahname, Sayfa 189.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 191.",
+        "offer_size_mn_tl": 1300.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 3200.0,
+          "gross_profit_mn_tl": 733.1,
+          "gross_margin": 0.22909375,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9c81f417019c9a7eea037eb0",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://gentaskimya.com/wp-content/uploads/2026/02/GENKM-EK-6-Fiyat-Tespit-Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://gentaskimya.com/wp-content/uploads/2025/10/Fon-Kullanim-Raporuna-Iliskin-YKK.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu 1",
+            "url": "https://gentaskimya.com/wp-content/uploads/2026/02/GENKM-EK-3-30.09.2025-Bagimsiz-Denetim-Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu 2",
+            "url": "https://gentaskimya.com/wp-content/uploads/2026/02/GENKM-EK-10-31.12.2025-Bagimsiz-Denetim-Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Kuruluşu Sorumluluk Beyanı",
+            "url": "https://gentaskimya.com/wp-content/uploads/2026/02/GENKM-EK-4-Bagimsiz-Denetim-Kurulusu-Sorumluluk-Beyani.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "SVGYO",
+      "company": "Savur Gayrimenkul Yatırım Ortaklığı A.Ş.",
+      "listing_date": "2026-03-06",
+      "return_5d_pct": 60.71,
+      "return_20d_pct": 263.46,
+      "max_drawdown_20d_pct": 20.25,
+      "max_limit_up_streak": 11,
+      "is_streak_active": false,
+      "max_return_15d_pct": 183.52,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 12.84,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 252.75,
+      "latest_turnover_pct": 875.22,
+      "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "tera",
+      "sector": "Finans",
+      "source_url": "https://halkarz.com/savur-gayrimenkul-yatirim-ortakligi-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/SVGYO.IS/history",
+      "ipo_price_tl": 3.64,
+      "fifth_session_date": "2026-03-12",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "SVGYO",
+        "company": "Savur Gayrimenkul Yatırım Ortaklığı A.Ş.",
+        "calendar_date_text": "26-27 Şubat, 2 Mart 2026",
+        "start_date": "2026-02-26",
+        "end_date": "2026-03-02",
+        "detail_url": "https://halkarz.com/savur-gayrimenkul-yatirim-ortakligi-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Finans",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 3.64,
+        "distribution_method": "Eşit Dağıtım **",
+        "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 295400000.0,
+        "primary_lots": 208400000.0,
+        "secondary_lots": 87000000.0,
+        "retail_allocation_pct": 40.0,
+        "retail_allocation_tl": null,
+        "participant_count": 701103.0,
+        "float_pct": 27.28,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %25-40 Kandilli Projesi'nin maliyetlerinin finansmanı. - %60-75 Yeni gayrimenkul yatırımları. - %0-15 İşletme sermayesi. * Taslak İzahname, Sayfa 216.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 212.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 214.",
+        "offer_size_mn_tl": 1100.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 61.3,
+          "gross_profit_mn_tl": 61.3,
+          "gross_margin": 1.0,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9c81f416019c8a7930ad29ef",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9c4c12ca019c7b7471e36f21",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.denizyatirim.com/asset/AnnouncementsPdf/1771924212.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://www.denizyatirim.com/asset/AnnouncementsPdf/1771924298.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Kuruluşu Sorumluluk Beyanı",
+            "url": "https://www.denizyatirim.com/asset/AnnouncementsPdf/1771924280.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "EMPAE",
+      "company": "Empa Elektronik San. ve Tic. A.Ş.",
+      "listing_date": "2026-02-26",
+      "return_5d_pct": 61.0,
+      "return_20d_pct": 111.36,
+      "max_drawdown_20d_pct": 17.35,
+      "max_limit_up_streak": 6,
+      "is_streak_active": false,
+      "max_return_15d_pct": 90.91,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 56.55,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 157.05,
+      "latest_turnover_pct": 1995.05,
+      "broker": "Halk Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "halk",
+      "sector": "Teknoloji",
+      "source_url": "https://halkarz.com/empa-elektronik-san-ve-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/EMPAE.IS/history",
+      "ipo_price_tl": 22.0,
+      "fifth_session_date": "2026-03-04",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "EMPAE",
+        "company": "Empa Elektronik San. ve Tic. A.Ş.",
+        "calendar_date_text": "19-20 Şubat 2026",
+        "start_date": "2026-02-19",
+        "end_date": "2026-02-20",
+        "detail_url": "https://halkarz.com/empa-elektronik-san-ve-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Teknoloji",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 22.0,
+        "distribution_method": "Eşit Dağıtım **",
+        "broker": "Halk Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 38000000.0,
+        "primary_lots": 29000000.0,
+        "secondary_lots": 9000000.0,
+        "retail_allocation_pct": 60.0,
+        "retail_allocation_tl": null,
+        "participant_count": 1134244.0,
+        "float_pct": 22.35,
+        "stated_discount_pct": 36.01,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %40 Teknolojideki yeni alanlarda yatırım ve Ar-Ge faaliyetlerinin çeşitlendirilmesi. - %15 Bölgesel satış pazarlama ağı ve lojistik yatırımı. - %30 İşletme sermayesi. - %15 Finansal borç ödemesi. * İzahname, Sayfa 241.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %20'si. * İzahname, Sayfa 237.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 237.",
+        "offer_size_mn_tl": 836.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 2400.0,
+          "gross_profit_mn_tl": 527.0,
+          "gross_margin": 0.21958333333333332,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://yatirimci-iliskileri.empa.com/Belgeler/TSSD.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://yatirimci-iliskileri.empa.com/Belgeler/EK-05_fiyat-tespit-raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://yatirimci-iliskileri.empa.com/Belgeler/EK-07_fon-kullanim-yeri-raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://yatirimci-iliskileri.empa.com/Belgeler/EK-03_bagimsiz-denetim-raporu.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "ATATR",
+      "company": "Ata Turizm İşletmecilik Taşımacılık Madencilik Kuyumculuk San. ve Dış Ticaret A.Ş.",
+      "listing_date": "2026-02-23",
+      "return_5d_pct": 30.36,
+      "return_20d_pct": -8.04,
+      "max_drawdown_20d_pct": 42.84,
+      "max_limit_up_streak": 3,
+      "is_streak_active": false,
+      "max_return_15d_pct": 60.89,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 15.52,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 38.57,
+      "latest_turnover_pct": 1740.53,
+      "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "tera",
+      "sector": "Tüketim",
+      "source_url": "https://halkarz.com/ata-turizm-isletmecilik-tasimacilik-madencilik-kuyumculuk-san-ve-dis-ticaret-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/ATATR.IS/history",
+      "ipo_price_tl": 11.2,
+      "fifth_session_date": "2026-02-27",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "ATATR",
+        "company": "Ata Turizm İşletmecilik Taşımacılık Madencilik Kuyumculuk San. ve Dış Ticaret A.Ş.",
+        "calendar_date_text": "11-12-13 Şubat 2026",
+        "start_date": "2026-02-11",
+        "end_date": "2026-02-13",
+        "detail_url": "https://halkarz.com/ata-turizm-isletmecilik-tasimacilik-madencilik-kuyumculuk-san-ve-dis-ticaret-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Tüketim",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 11.2,
+        "distribution_method": "Eşit Dağıtım **",
+        "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 280000000.0,
+        "primary_lots": 240000000.0,
+        "secondary_lots": 40000000.0,
+        "retail_allocation_pct": 40.0,
+        "retail_allocation_tl": null,
+        "participant_count": 622600.0,
+        "float_pct": 34.9,
+        "stated_discount_pct": 38.45,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %80-90 Kiracı sıfatıyla sürdürdüğü taşınmazların satın alımı. - %10 Otel ve restoranların renovasyonu. - %5-10 Taş ocağı kapasite artırımı. - %5-10 İşletme sermayesi. * İzahname, Sayfa 231.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %10'u. * İzahname, Sayfa 228.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 230.",
+        "offer_size_mn_tl": 3100.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 1800.0,
+          "gross_profit_mn_tl": 845.9,
+          "gross_margin": 0.46994444444444444,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9b82727a019c3422403d6aa7",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://ataturizm.com.tr/files/9%20Fiyat%20Tespit%20Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://ataturizm.com.tr/files/8.%20Fon%20Kullan%C4%B1m%20Yeri%20Raporu%20ve%20ilgili%20Y%C3%B6netim%20Kurulu%20karar%C4%B1.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://ataturizm.com.tr/files/3a.%20Ba%C4%9F%C4%B1ms%C4%B1z%20Denetim%20Raporu%2030.09.2025.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Kuruluşu Sorumluluk Beyanı",
+            "url": "https://ataturizm.com.tr/files/4.%20Ba%C4%9F%C4%B1ms%C4%B1z%20Denetim%20Kurulu%C5%9Fu%20Sorumluluk%20Beyan%C4%B1.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "BESTE",
+      "company": "Best Brands Grup Enerji Yatırım A.Ş.",
+      "listing_date": "2026-02-11",
+      "return_5d_pct": 60.82,
+      "return_20d_pct": 45.85,
+      "max_drawdown_20d_pct": 44.88,
+      "max_limit_up_streak": 10,
+      "is_streak_active": false,
+      "max_return_15d_pct": 158.91,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 33.58,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 128.44,
+      "latest_turnover_pct": 1543.77,
+      "broker": "Global Menkul Değerler A.Ş.",
+      "broker_key": "global",
+      "sector": "Enerji",
+      "source_url": "https://halkarz.com/best-brands-grup-enerji-yatirim-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/BESTE.IS/history",
+      "ipo_price_tl": 14.7,
+      "fifth_session_date": "2026-02-17",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "BESTE",
+        "company": "Best Brands Grup Enerji Yatırım A.Ş.",
+        "calendar_date_text": "5-6 Şubat 2026",
+        "start_date": "2026-02-05",
+        "end_date": "2026-02-06",
+        "detail_url": "https://halkarz.com/best-brands-grup-enerji-yatirim-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Enerji",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 14.7,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Global Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 54578570.0,
+        "primary_lots": 38205000.0,
+        "secondary_lots": 16373570.0,
+        "retail_allocation_pct": null,
+        "retail_allocation_tl": null,
+        "participant_count": 796578.0,
+        "float_pct": 29.0,
+        "stated_discount_pct": 22.88,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %100 Yeni yatırım yapılması. * İzahname, Sayfa 223.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * İzahname, Sayfa 219.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 221.",
+        "offer_size_mn_tl": 802.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 346.5,
+          "gross_profit_mn_tl": 100.0,
+          "gross_margin": 0.2886002886002886,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9b827483019c0fdea3524680",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9b827483019c0fd294ee4559",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://drive.google.com/file/d/1Qij9ufxJgcYDVvkJe7uw0J56ziZw9sTd/view",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://drive.google.com/file/d/1UbJiSy2DlSCdCm8Dnzl2sjB2VM_yhqY0/view",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu 2",
+            "url": "https://drive.google.com/file/d/1uTUaThcJGmjwRl8CW56kSEgoGBgE-Gyj/view",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu Sorumluluk Beyanı",
+            "url": "https://drive.google.com/file/d/1CQbOlKWEtgvN6YyBdgDHj2IdhAnVbowS/view",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "AKHAN",
+      "company": "Akhan Un Fabrikası ve Tarım Ürünleri Gıda Sanayi Tic. A.Ş.",
+      "listing_date": "2026-02-06",
+      "return_5d_pct": 40.47,
+      "return_20d_pct": 26.33,
+      "max_drawdown_20d_pct": 27.02,
+      "max_limit_up_streak": 4,
+      "is_streak_active": false,
+      "max_return_15d_pct": 46.33,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 45.22,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 110.33,
+      "latest_turnover_pct": 1548.34,
+      "broker": "Halk Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "halk",
+      "sector": "Sanayi",
+      "source_url": "https://halkarz.com/akhan-un-fabrikasi-ve-tarim-urunleri-gida-sanayi-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/AKHAN.IS/history",
+      "ipo_price_tl": 21.5,
+      "fifth_session_date": "2026-02-12",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "AKHAN",
+        "company": "Akhan Un Fabrikası ve Tarım Ürünleri Gıda Sanayi Tic. A.Ş.",
+        "calendar_date_text": "28-29-30 Ocak 2026",
+        "start_date": "2026-01-28",
+        "end_date": "2026-01-30",
+        "detail_url": "https://halkarz.com/akhan-un-fabrikasi-ve-tarim-urunleri-gida-sanayi-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Sanayi",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 21.5,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Halk Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 54700000.0,
+        "primary_lots": 54700000.0,
+        "secondary_lots": null,
+        "retail_allocation_pct": 60.0,
+        "retail_allocation_tl": null,
+        "participant_count": 959086.0,
+        "float_pct": 20.01,
+        "stated_discount_pct": 36.3,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %45 İşletme sermayesi. - %40 Finansal borçların kapatılması. - %15 Makarna fabrikası ile ilgili finansal kiralama ödemeleri. * İzahname, Sayfa 217.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %20'si. * İzahname, Sayfa 213.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 215.",
+        "offer_size_mn_tl": 1100.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 4600.0,
+          "gross_profit_mn_tl": 715.1,
+          "gross_margin": 0.15545652173913044,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9b82727a019bf07a9b624409",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9b827483019befd306632f81",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://akhanun.com.tr/images/item/ek_5_fiyat_tespit_raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://akhanun.com.tr/images/item/ek_3_bagimsiz_denetim_raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Kuruluşu Sorumluluk Beyanı",
+            "url": "https://akhanun.com.tr/images/item/ek_4_bagimsiz_denetim_kurulusu_sorumluluk_beyani.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "NETCD",
+      "company": "Netcad Yazılım A.Ş.",
+      "listing_date": "2026-02-05",
+      "return_5d_pct": 60.87,
+      "return_20d_pct": 109.57,
+      "max_drawdown_20d_pct": 16.22,
+      "max_limit_up_streak": 8,
+      "is_streak_active": false,
+      "max_return_15d_pct": 135.87,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 142.3,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 209.35,
+      "latest_turnover_pct": 1346.57,
+      "broker": "İnfo Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "info",
+      "sector": "Teknoloji",
+      "source_url": "https://halkarz.com/netcad-yazilim-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/NETCD.IS/history",
+      "ipo_price_tl": 46.0,
+      "fifth_session_date": "2026-02-11",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "NETCD",
+        "company": "Netcad Yazılım A.Ş.",
+        "calendar_date_text": "28-29-30 Ocak 2026",
+        "start_date": "2026-01-28",
+        "end_date": "2026-01-30",
+        "detail_url": "https://halkarz.com/netcad-yazilim-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Teknoloji",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 46.0,
+        "distribution_method": "Eşit Dağıtım **",
+        "broker": "İnfo Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 40000000.0,
+        "primary_lots": 12000000.0,
+        "secondary_lots": 28000000.0,
+        "retail_allocation_pct": 60.0,
+        "retail_allocation_tl": null,
+        "participant_count": 994717.0,
+        "float_pct": 29.2,
+        "stated_discount_pct": 26.3,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %75-85 Arge yatırımları, işletme sermayesi. - %5-10 Pazar faaliyetlerinin artırılmasında. - %10-15 Şirket büyümesini destekleyen fiziki ve teknolojik yatırımlar. * İzahname, Sayfa 261.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 257.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 257.",
+        "offer_size_mn_tl": 1900.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 899.9,
+          "gross_profit_mn_tl": 835.7,
+          "gross_margin": 0.9286587398599845,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9b827483019bf07eb9dd3365",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9b827481019bef7475102a8d",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://cdn.prod.website-files.com/5f843092670b460a40be7d22/69737fcba49b5fe126ebdfe9_Ek-7%20Netcad%20-%20Fonun%20Kullan%C4%B1m%20Yerlerine%20I%CC%87lis%CC%A7kin%20YKK.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://cdn.prod.website-files.com/5f843092670b460a40be7d22/69737f0f1c6fb87fa08f4810_Ek-3%20Netcad%20-%2030.09.2025%20BDR.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Kuruluşunun Sorumluluk Beyanı",
+            "url": "https://cdn.prod.website-files.com/5f843092670b460a40be7d22/69737f1f3df93a8555f12b38_Ek-4%20Bag%CC%86%C4%B1ms%C4%B1z%20Denetc%CC%A7i%20Sorumluluk%20Beyan%C4%B1%20-%2030.09.2025.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "UCAYM",
+      "company": "Üçay Mühendislik Enerji ve İklimlendirme Teknolojileri A.Ş.",
+      "listing_date": "2026-01-22",
+      "return_5d_pct": 60.78,
+      "return_20d_pct": 67.22,
+      "max_drawdown_20d_pct": 23.38,
+      "max_limit_up_streak": 8,
+      "is_streak_active": false,
+      "max_return_15d_pct": 113.89,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 28.52,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 58.44,
+      "latest_turnover_pct": 1444.14,
+      "broker": "Kuveyt Türk Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "kuveyt turk",
+      "sector": "Enerji",
+      "source_url": "https://halkarz.com/ucay-muhendislik-enerji-ve-iklimlendirme-teknolojileri-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/UCAYM.IS/history",
+      "ipo_price_tl": 18.0,
+      "fifth_session_date": "2026-01-28",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "UCAYM",
+        "company": "Üçay Mühendislik Enerji ve İklimlendirme Teknolojileri A.Ş.",
+        "calendar_date_text": "14-15-16 Ocak 2026",
+        "start_date": "2026-01-14",
+        "end_date": "2026-01-16",
+        "detail_url": "https://halkarz.com/ucay-muhendislik-enerji-ve-iklimlendirme-teknolojileri-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Enerji",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 18.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Kuveyt Türk Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 60000000.0,
+        "primary_lots": 50000000.0,
+        "secondary_lots": 10000000.0,
+        "retail_allocation_pct": 70.0,
+        "retail_allocation_tl": null,
+        "participant_count": 785446.0,
+        "float_pct": 26.67,
+        "stated_discount_pct": 46.3,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %40-50 Lisanssız ya da Lisanslı güneş enerjisi santrali (GES) kurulumu ya da satın alınması. - %10-15 Şube Aağının genişletilmesi. - %30-40 Operasyonel giderlerin azaltılması, sürdürülebilirlik yatırımları. - %5-10 Elektrikli araç şarj istasyonu ağları kurulumu. * İzahname, Sayfa 294.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %50'si. * İzahname, Sayfa 290.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 291.",
+        "offer_size_mn_tl": 1100.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 1900.0,
+          "gross_profit_mn_tl": 455.5,
+          "gross_margin": 0.23973684210526316,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.ucay.com.tr/wp-content/uploads/2026/01/TSDD-1.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.ucay.com.tr/wp-content/uploads/2026/01/Ucay-Muhendislik_Fiyat-Tespit-Raporu-1.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.ucay.com.tr/wp-content/uploads/2026/01/EK-9-Fon-Kullanim-Yeri-Raporu-ve-Ilgili-Yonetim-Kurulu-Karari-1.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://www.ucay.com.tr/wp-content/uploads/2026/01/EK-4-Bagimsiz-Denetim-Kurulusu-Sorumluluk-Beyani.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "ZGYO",
+      "company": "Z Gayrimenkul Yatırım Ortaklığı A.Ş.",
+      "listing_date": "2026-01-16",
+      "return_5d_pct": 52.92,
+      "return_20d_pct": 262.33,
+      "max_drawdown_20d_pct": 11.98,
+      "max_limit_up_streak": 5,
+      "is_streak_active": false,
+      "max_return_15d_pct": 142.58,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 39.02,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 299.39,
+      "latest_turnover_pct": 846.41,
+      "broker": "Vakıf Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "vakif",
+      "sector": "Finans",
+      "source_url": "https://halkarz.com/z-gayrimenkul-yatirim-ortakligi-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/ZGYO.IS/history",
+      "ipo_price_tl": 9.77,
+      "fifth_session_date": "2026-01-22",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "ZGYO",
+        "company": "Z Gayrimenkul Yatırım Ortaklığı A.Ş.",
+        "calendar_date_text": "7-8-9 Ocak 2026",
+        "start_date": "2026-01-07",
+        "end_date": "2026-01-09",
+        "detail_url": "https://halkarz.com/z-gayrimenkul-yatirim-ortakligi-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Finans",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 9.77,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Vakıf Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 84500000.0,
+        "primary_lots": 42250000.0,
+        "secondary_lots": 42250000.0,
+        "retail_allocation_pct": 50.0,
+        "retail_allocation_tl": null,
+        "participant_count": 431279.0,
+        "float_pct": 40.1,
+        "stated_discount_pct": 27.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %20-30 Portföydeki arsalar üzerinde gayrimenkul projesi geliştirme yatırımları ve gayrimenkule dayalı hak kapsamındaki proje yatırımları. - %25-35 Lagun diplomatik site projesi yatırımları. - %25-35 Finansal yükümlülük ödemesi. - %10-20 İşletme sermayesi. * İzahname, Sayfa 269.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 266.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 267.",
+        "offer_size_mn_tl": 825.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 8.2,
+          "gross_profit_mn_tl": 8.2,
+          "gross_margin": 1.0,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9b5e661e019b80ddb8483b3d",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.vakifyatirim.com.tr/assets/file/news_3_01_20260_745.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.vakifyatirim.com.tr/assets/file/news_3_01_20260_563.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://www.denizyatirim.com/asset/AnnouncementsPdf/1767618372.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "FRMPL",
+      "company": "Formül Plastik ve Metal Sanayi A.Ş.",
+      "listing_date": "2026-01-15",
+      "return_5d_pct": 45.5,
+      "return_20d_pct": 28.37,
+      "max_drawdown_20d_pct": 29.32,
+      "max_limit_up_streak": 4,
+      "is_streak_active": false,
+      "max_return_15d_pct": 75.93,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 31.5,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 4.17,
+      "latest_turnover_pct": 1668.21,
+      "broker": "İntegral Yatırım Menkul Değerler A.Ş. Ziraat Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "integral",
+      "sector": "Sanayi",
+      "source_url": "https://halkarz.com/formul-plastik-ve-metal-sanayi-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/FRMPL.IS/history",
+      "ipo_price_tl": 30.24,
+      "fifth_session_date": "2026-01-21",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "FRMPL",
+        "company": "Formül Plastik ve Metal Sanayi A.Ş.",
+        "calendar_date_text": "7-8-9 Ocak 2026",
+        "start_date": "2026-01-07",
+        "end_date": "2026-01-09",
+        "detail_url": "https://halkarz.com/formul-plastik-ve-metal-sanayi-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Sanayi",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 30.24,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "İntegral Yatırım Menkul Değerler A.Ş. Ziraat Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 40000000.0,
+        "primary_lots": 30000000.0,
+        "secondary_lots": 10000000.0,
+        "retail_allocation_pct": 65.0,
+        "retail_allocation_tl": null,
+        "participant_count": 679834.0,
+        "float_pct": 25.0,
+        "stated_discount_pct": 28.98,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %75 Yatırımlar. - %25 İşletme sermayesi. * İzahname, Sayfa 246.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %10'u. (İntegral Yatırım Menkul Değerler A.Ş.) * İzahname, Sayfa 242.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 244.",
+        "offer_size_mn_tl": 1200.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 2400.0,
+          "gross_profit_mn_tl": 664.0,
+          "gross_margin": 0.27666666666666667,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9b5e6824019b7f1b7c612b4f",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9b5e6824019b7f1d76862bff",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.formul.com.tr/yatirimci-iliskileri-files/halka_arz/Ek%208-%202024-15%20Fon%20Kullanim%20Raporu%20ve%20YK%20Karar%C4%B1%20Noter%20Onayl%C4%B1.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://www.formul.com.tr/yatirimci-iliskileri-files/halka_arz/Ek%203-%20Halka%20Arz%20Ba%C4%9F%C4%B1ms%C4%B1z%20Denetim%20Raporu%2030092025.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Kuruluşu Sorumluluk Beyanı",
+            "url": "https://www.formul.com.tr/yatirimci-iliskileri-files/halka_arz/Ek%204-%20Ba%C4%9F%C4%B1ms%C4%B1z%20Denetim%20Kurulu%C5%9Fu%20Sorumluluk%20Beyan%C4%B1.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "MEYSU",
+      "company": "Meysu Gıda San. ve Tic. A.Ş.",
+      "listing_date": "2026-01-13",
+      "return_5d_pct": 40.67,
+      "return_20d_pct": 98.8,
+      "max_drawdown_20d_pct": 19.69,
+      "max_limit_up_streak": 4,
+      "is_streak_active": false,
+      "max_return_15d_pct": 122.13,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 12.28,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 63.73,
+      "latest_turnover_pct": 1964.38,
+      "broker": "Alnus Yatırım Menkul Değerler A.Ş. Tera Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "alnus",
+      "sector": "Tüketim",
+      "source_url": "https://halkarz.com/meysu-gida-san-ve-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/MEYSU.IS/history",
+      "ipo_price_tl": 7.5,
+      "fifth_session_date": "2026-01-19",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "MEYSU",
+        "company": "Meysu Gıda San. ve Tic. A.Ş.",
+        "calendar_date_text": "5-6-7 Ocak 2026",
+        "start_date": "2026-01-05",
+        "end_date": "2026-01-07",
+        "detail_url": "https://halkarz.com/meysu-gida-san-ve-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Tüketim",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 7.5,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Alnus Yatırım Menkul Değerler A.Ş. Tera Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 175000000.0,
+        "primary_lots": 120000000.0,
+        "secondary_lots": 55000000.0,
+        "retail_allocation_pct": 45.0,
+        "retail_allocation_tl": null,
+        "participant_count": 646385.0,
+        "float_pct": 20.11,
+        "stated_discount_pct": 29.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %40-50 Kapasite ve verimlilik artışına yönelik yatırım. - %50-60 İşletme sermayesi. * İzahname, Sayfa 302.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün.. (Alnus Yatırım Menkul Değerler A.Ş.) * İzahname, Sayfa 299.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 300.",
+        "offer_size_mn_tl": 1300.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 2800.0,
+          "gross_profit_mn_tl": 862.4,
+          "gross_margin": 0.308,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9b5e6824019b708706035824",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.alnusyatirim.com/static/uploads/halka_arz/document/Meysu_Gida/Fiyat_Tespit_Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.alnusyatirim.com/static/uploads/halka_arz/document/Meysu_Gida/Yonetim_Kurulu_Karari_ve_Fon_Kullanim_Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://www.alnusyatirim.com/static/uploads/halka_arz/document/Meysu_Gida/Bagimsiz_Denetim_Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Kuruluşu Sorumluluk Beyanı",
+            "url": "https://www.alnusyatirim.com/static/uploads/halka_arz/document/Meysu_Gida/Bagimsiz_Denetim_Kurulusu_Sorumluluk_Beyani.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "ARFYE",
+      "company": "Arf Bio Yenilenebilir Enerji Üretim A.Ş.",
+      "listing_date": "2026-01-05",
+      "return_5d_pct": 60.72,
+      "return_20d_pct": 46.87,
+      "max_drawdown_20d_pct": 24.43,
+      "max_limit_up_streak": 7,
+      "is_streak_active": false,
+      "max_return_15d_pct": 94.36,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 31.18,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 59.9,
+      "latest_turnover_pct": 1966.73,
+      "broker": "A1 Capital Yatırım Menkul Değerler A.Ş. Bulls Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "a1 capital",
+      "sector": "Enerji",
+      "source_url": "https://halkarz.com/arf-bio-yenilenebilir-enerji-uretim-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/ARFYE.IS/history",
+      "ipo_price_tl": 19.5,
+      "fifth_session_date": "2026-01-09",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "ARFYE",
+        "company": "Arf Bio Yenilenebilir Enerji Üretim A.Ş.",
+        "calendar_date_text": "25-26 Aralık 2025",
+        "start_date": "2025-12-25",
+        "end_date": "2025-12-26",
+        "detail_url": "https://halkarz.com/arf-bio-yenilenebilir-enerji-uretim-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Enerji",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 19.5,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "A1 Capital Yatırım Menkul Değerler A.Ş. Bulls Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 47000000.0,
+        "primary_lots": 35500000.0,
+        "secondary_lots": 11500000.0,
+        "retail_allocation_pct": 50.0,
+        "retail_allocation_tl": null,
+        "participant_count": 508244.0,
+        "float_pct": 25.71,
+        "stated_discount_pct": 37.9,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %55 Hammadde tedariki ve işletme sermayesi finansmanı. - %15 Mikro alg yatırımının finansmanı. - %30 Finansal ve cari borç ödemeleri. * İzahname, Sayfa 276.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 271.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 273.",
+        "offer_size_mn_tl": 1000.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 152.4,
+          "gross_profit_mn_tl": 1.8,
+          "gross_margin": 0.011811023622047244,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9af24264019b370b9d805145",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c9af2405e019b373a5e7764f9",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.arfbio.com/yatirimci-iliskileri/fon-kullanim-yerleri-raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Sorumluluk Beyanları",
+            "url": "https://www.arfbio.com/yatirimci-iliskileri/bagimsiz-denetim-sorumluluk-beyanlari.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "ZERGY",
+      "company": "Zeray Gayrimenkul Yatırım Ortaklığı A.Ş.",
+      "listing_date": "2025-12-18",
+      "return_5d_pct": 0.77,
+      "return_20d_pct": -21.54,
+      "max_drawdown_20d_pct": 40.81,
+      "max_limit_up_streak": 2,
+      "is_streak_active": false,
+      "max_return_15d_pct": 21.0,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 10.23,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -21.31,
+      "latest_turnover_pct": 1314.59,
+      "broker": "Ziraat Yatırım Menkul Kıymetler A.Ş. İntegral Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "ziraat",
+      "sector": "Finans",
+      "source_url": "https://halkarz.com/zeray-gayrimenkul-yatirim-ortakligi-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/ZERGY.IS/history",
+      "ipo_price_tl": 13.0,
+      "fifth_session_date": "2025-12-24",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "ZERGY",
+        "company": "Zeray Gayrimenkul Yatırım Ortaklığı A.Ş.",
+        "calendar_date_text": "10-11-12 Aralık 2025",
+        "start_date": "2025-12-10",
+        "end_date": "2025-12-12",
+        "detail_url": "https://halkarz.com/zeray-gayrimenkul-yatirim-ortakligi-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Finans",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 13.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Ziraat Yatırım Menkul Kıymetler A.Ş. İntegral Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 156800000.0,
+        "primary_lots": 116000000.0,
+        "secondary_lots": 40800000.0,
+        "retail_allocation_pct": 50.0,
+        "retail_allocation_tl": null,
+        "participant_count": 348179.0,
+        "float_pct": 25.05,
+        "stated_discount_pct": 2007.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %20-30 Yeni projelerin finansmanı. - %65-75 Yüklenici firmalara hakediş ödemeleri. - %0-10 Finansal borçların ödenmesi. - %0-5 İşletme sermayesi. * İzahname, Sayfa 289.",
+        "price_stabilization": "Fiyat İstikrarı - 15 gün. (İntegral Yatırım Menkul Değerler A.Ş.) * İzahname, Sayfa 283.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 285.",
+        "offer_size_mn_tl": 2000.0,
+        "financials": {
+          "as_of": "2025-09-30",
+          "revenue_mn_tl": 255.9,
+          "gross_profit_mn_tl": 130.7,
+          "gross_margin": 0.5107463853067604,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9aaa2dfa019aef0a6dab539e",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d9aaa2df9019aef4166d67813",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://zeraygyo.com.tr/application/files/6517/6492/9255/EK_8-_Fon_Kullanim_Yeri_Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://zeraygyo.com.tr/application/files/8317/6492/8482/EK_3-_Bagimsiz_Denetim_Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Kuruluşu Sorumluluk Beyanı",
+            "url": "https://zeraygyo.com.tr/application/files/3117/6494/9800/EK_4-_Bagimsiz_Denetim_Kurulusu_Sorumluluk_Beyani.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "PAHOL",
+      "company": "Pasifik Holding A.Ş.",
+      "listing_date": "2025-11-21",
+      "return_5d_pct": 10.67,
+      "return_20d_pct": 3.33,
+      "max_drawdown_20d_pct": 16.57,
+      "max_limit_up_streak": 2,
+      "is_streak_active": false,
+      "max_return_15d_pct": 20.67,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 1.43,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -4.67,
+      "latest_turnover_pct": 404.37,
+      "broker": "Halk Yatırım Menkul Değerler A.Ş. İntegral Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "halk",
+      "sector": null,
+      "source_url": "https://halkarz.com/pasifik-holding-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/PAHOL.IS/history",
+      "ipo_price_tl": 1.5,
+      "fifth_session_date": "2025-11-27",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "PAHOL",
+        "company": "Pasifik Holding A.Ş.",
+        "calendar_date_text": "12-13-14 Kasım 2025",
+        "start_date": "2025-11-12",
+        "end_date": "2025-11-14",
+        "detail_url": "https://halkarz.com/pasifik-holding-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": null,
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 1.5,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Halk Yatırım Menkul Değerler A.Ş. İntegral Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 4000000000.0,
+        "primary_lots": 2000000000.0,
+        "secondary_lots": 2000000000.0,
+        "retail_allocation_pct": 40.0,
+        "retail_allocation_tl": null,
+        "participant_count": 649369.0,
+        "float_pct": 20.0,
+        "stated_discount_pct": 25.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %80 Yatırımlar. - %10 Finansal borçların ödenmesi. - %10 İşletme sermayesi. * İzahname, Sayfa 462.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * (Ortak Payları) Halka arz gelirinin %100'ü. * (Sermaye Artırımı) Brüt halka arz gelirinin %20'si. * İlave olarak brüt halka arz gelirinin %10'u. (Halk Yatırım Menkul Değerler A.Ş.) * İzahname, Sayfa 458.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 460.",
+        "offer_size_mn_tl": 6000.0,
+        "financials": {
+          "as_of": "2025-06-30",
+          "revenue_mn_tl": 1900.0,
+          "gross_profit_mn_tl": 1900.0,
+          "gross_margin": 1.0,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d998eebe8019a633995550422",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d998eebe8019a6341ad6a0486",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://pasifik.com/Uploads/investor/fon-kullanim-yeri-raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Denetim Raporu",
+            "url": "https://pasifik.com/Uploads/investor/pasifik-holding-30062025-bdrimzali.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Kuruluş Sorumluluk Beyanları",
+            "url": "https://pasifik.com/Uploads/investor/ek-4-bagimsiz-denetim-kurulusu-sorumluluk-beyani.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "VAKFA",
+      "company": "Vakıf Faktoring A.Ş.",
+      "listing_date": "2025-11-20",
+      "return_5d_pct": 7.82,
+      "return_20d_pct": -7.46,
+      "max_drawdown_20d_pct": 30.81,
+      "max_limit_up_streak": 3,
+      "is_streak_active": false,
+      "max_return_15d_pct": 33.03,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 11.75,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -17.25,
+      "latest_turnover_pct": 1081.55,
+      "broker": "Vakıf Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "vakif",
+      "sector": null,
+      "source_url": "https://halkarz.com/vakif-faktoring-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/VAKFA.IS/history",
+      "ipo_price_tl": 14.2,
+      "fifth_session_date": "2025-11-26",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "VAKFA",
+        "company": "Vakıf Faktoring A.Ş.",
+        "calendar_date_text": "12-13-14 Kasım 2025",
+        "start_date": "2025-11-12",
+        "end_date": "2025-11-14",
+        "detail_url": "https://halkarz.com/vakif-faktoring-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": null,
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 14.2,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Vakıf Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 225000000.0,
+        "primary_lots": 50000000.0,
+        "secondary_lots": 175000000.0,
+        "retail_allocation_pct": 60.0,
+        "retail_allocation_tl": null,
+        "participant_count": 684223.0,
+        "float_pct": 25.0,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %100 Faktoring işlemlerinin finansmanı. * İzahname, Sayfa 239.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %10'u. * İzahname, Sayfa 234.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 236.",
+        "offer_size_mn_tl": 3200.0,
+        "financials": {
+          "as_of": "2025-06-30",
+          "revenue_mn_tl": 4900.0,
+          "gross_profit_mn_tl": 1300.0,
+          "gross_margin": 0.2653061224489796,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d998eebe8019a64ed9b1b666f",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c998ee9d7019a652f7c181f72",
+            "tier": "official"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d998eebe8019a64059cd71a1b",
+            "tier": "official"
+          },
+          {
+            "name": "30.06.2025 IPO Bağımsız Denetim Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c998ee9d7019a641bd4391c5a",
+            "tier": "official"
+          },
+          {
+            "name": "Bağımsız Denetim Beyanı EY",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c998ee9d5019a63e7fa773d05",
+            "tier": "official"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "ECOGR",
+      "company": "Ecogreen Enerji Holding A.Ş.",
+      "listing_date": "2025-11-03",
+      "return_5d_pct": 60.87,
+      "return_20d_pct": 108.85,
+      "max_drawdown_20d_pct": 28.99,
+      "max_limit_up_streak": 11,
+      "is_streak_active": false,
+      "max_return_15d_pct": 184.62,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 39.88,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 283.46,
+      "latest_turnover_pct": 140.7,
+      "broker": "Gedik Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "gedik",
+      "sector": "Enerji",
+      "source_url": "https://halkarz.com/ecogreen-enerji-holding-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/ECOGR.IS/history",
+      "ipo_price_tl": 10.4,
+      "fifth_session_date": "2025-11-07",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "ECOGR",
+        "company": "Ecogreen Enerji Holding A.Ş.",
+        "calendar_date_text": "22-23-24 Ekim 2025",
+        "start_date": "2025-10-22",
+        "end_date": "2025-10-24",
+        "detail_url": "https://halkarz.com/ecogreen-enerji-holding-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Enerji",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 10.4,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Gedik Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 110000000.0,
+        "primary_lots": 110000000.0,
+        "secondary_lots": null,
+        "retail_allocation_pct": 40.0,
+        "retail_allocation_tl": null,
+        "participant_count": 478705.0,
+        "float_pct": 20.37,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %70 Yatırım finansmanı. - %20 Kredi ödemesi. - %10 İşletme sermayesi. * İzahname, Sayfa 430.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 417.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 429.",
+        "offer_size_mn_tl": 11000.0,
+        "financials": {
+          "as_of": "2025-06-30",
+          "revenue_mn_tl": 3300.0,
+          "gross_profit_mn_tl": 599.4,
+          "gross_margin": 0.18163636363636362,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328c998ee9d50199f9106df909bd",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://reader.ecogreenenerji.com/web/viewer.html?file=https%3A%2F%2Fecogreen-statics.s3.eu-west-1.amazonaws.com%2Fhalka_arz%2FFiyat%2BTespit%2BRaporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://reader.ecogreenenerji.com/web/viewer.html?file=https%3A%2F%2Fecogreen-statics.s3.eu-west-1.amazonaws.com%2Fhalka_arz%2FFon%2BKullan%25C4%25B1m%2BYeri%2BRaporu.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "DOFRB",
+      "company": "Dof Robotik Sanayi A.Ş.",
+      "listing_date": "2025-09-12",
+      "return_5d_pct": 76.78,
+      "return_20d_pct": 297.11,
+      "max_drawdown_20d_pct": 9.97,
+      "max_limit_up_streak": 9,
+      "is_streak_active": false,
+      "max_return_15d_pct": 201.56,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 156.3,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 247.33,
+      "latest_turnover_pct": 1225.55,
+      "broker": "Yatırım Finansman Menkul Değerler A.Ş. Türkiye Sınai Kalkınma Bankası A.Ş.",
+      "broker_key": "finansman",
+      "sector": "Sanayi",
+      "source_url": "https://halkarz.com/dof-robotik-sanayi-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/DOFRB.IS/history",
+      "ipo_price_tl": 45.0,
+      "fifth_session_date": "2025-09-18",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "DOFRB",
+        "company": "Dof Robotik Sanayi A.Ş.",
+        "calendar_date_text": "3-4-5 Eylül 2025",
+        "start_date": "2025-09-03",
+        "end_date": "2025-09-05",
+        "detail_url": "https://halkarz.com/dof-robotik-sanayi-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Sanayi",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 45.0,
+        "distribution_method": "Eşit Dağıtım **",
+        "broker": "Yatırım Finansman Menkul Değerler A.Ş. Türkiye Sınai Kalkınma Bankası A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 45000000.0,
+        "primary_lots": 30000000.0,
+        "secondary_lots": 15000000.0,
+        "retail_allocation_pct": 40.0,
+        "retail_allocation_tl": null,
+        "participant_count": 340447.0,
+        "float_pct": 29.03,
+        "stated_discount_pct": 25.09,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %10 Üretim ve ofis alanlarının genişlemesi. - %5 GES ve yeşil dönüşüm. - %5-10 Ar-Ge yatırımları. - %10 Pazarlama ve satış. - %10 Makine, ekipman ve proje yatırımları. - %5 Girişim sermayesi yatırımları. - %15 Finansal borç ödenmesi. - %35-40 İşletme sermayesi. * İzahname, Sayfa 277.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %20'si. (Yatırım Finansman Menkul Değerler A.Ş.) * İzahname, Sayfa 272.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * Taslak İzahname, Sayfa 274.",
+        "offer_size_mn_tl": 2000.0,
+        "financials": {
+          "as_of": "2025-06-30",
+          "revenue_mn_tl": 267.0,
+          "gross_profit_mn_tl": 168.5,
+          "gross_margin": 0.6310861423220974,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d98455cf70198f692bdbf3248",
+            "tier": "official"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.yf.com.tr/document/EK-3-Dof-Robotik-Fiyat-Tespit-Raporu",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.kap.org.tr/tr/api/file/download/4028328d98455cf70198f6b06db03305",
+            "tier": "official"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "BULGS",
+      "company": "Bulls Girişim Sermayesi Yatırım Ortaklığı A.Ş.",
+      "listing_date": "2025-02-21",
+      "return_5d_pct": 57.22,
+      "return_20d_pct": 62.15,
+      "max_drawdown_20d_pct": 17.16,
+      "max_limit_up_streak": 3,
+      "is_streak_active": false,
+      "max_return_15d_pct": 95.73,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 38.78,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 218.39,
+      "latest_turnover_pct": 1995.66,
+      "broker": "Bulls Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "bulls",
+      "sector": "Finans",
+      "source_url": "https://halkarz.com/bulls-girisim-sermayesi-yatirim-ortakligi-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/BULGS.IS/history",
+      "ipo_price_tl": 12.18,
+      "fifth_session_date": "2025-02-27",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "BULGS",
+        "company": "Bulls Girişim Sermayesi Yatırım Ortaklığı A.Ş.",
+        "calendar_date_text": "14-17 Şubat 2025",
+        "start_date": "2025-02-14",
+        "end_date": "2025-02-17",
+        "detail_url": "https://halkarz.com/bulls-girisim-sermayesi-yatirim-ortakligi-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Finans",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 12.18,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Bulls Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 72500000.0,
+        "primary_lots": 68000000.0,
+        "secondary_lots": 4500000.0,
+        "retail_allocation_pct": 55.0,
+        "retail_allocation_tl": null,
+        "participant_count": 171029.0,
+        "float_pct": 27.05,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %40 Savunma sanayi sektörü şirketlerine yatırım. - %50 Diğer sektörlerde faaliyet gösteren şirketlere yatırım. - %10 İşletme sermayesi. * İzahname, Sayfa 265.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %20'si. * İzahname, Sayfa 261.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 263.",
+        "offer_size_mn_tl": 883.0,
+        "financials": {
+          "as_of": "2024-09-30",
+          "revenue_mn_tl": 2200.0,
+          "gross_profit_mn_tl": 2000.0,
+          "gross_margin": 0.9090909090909091,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/02/tssd-BULGS.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/02/ftr-BULGS.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://bullsyatirim.com/upload/files/balsu/bulls-gsyo/7_ek_fon-kullanim-yeri-raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bagimsiz Denetim Raporu",
+            "url": "https://bullsyatirim.com/upload/files/balsu/bulls-gsyo/3_ek_bulls-gsyo-bagimsiz-denetim-rapporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bagimsiz Denetim Raporu Sorumluluk Beyani",
+            "url": "https://bullsyatirim.com/upload/files/balsu/bulls-gsyo/4_ek_bagimsiz-denetim-kurulusu-sorumluluk-beyani.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "BALSU",
+      "company": "Balsu Gıda San. ve Tic. A.Ş.",
+      "listing_date": "2025-02-20",
+      "return_5d_pct": -0.63,
+      "return_20d_pct": -14.85,
+      "max_drawdown_20d_pct": 22.53,
+      "max_limit_up_streak": 1,
+      "is_streak_active": false,
+      "max_return_15d_pct": 9.9,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 15.86,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -9.73,
+      "latest_turnover_pct": 285.31,
+      "broker": "Ziraat Yatırım Menkul Kıymetler A.Ş. İnfo Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "ziraat",
+      "sector": "Tüketim",
+      "source_url": "https://halkarz.com/balsu-gida-san-ve-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/BALSU.IS/history",
+      "ipo_price_tl": 17.57,
+      "fifth_session_date": "2025-02-26",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "BALSU",
+        "company": "Balsu Gıda San. ve Tic. A.Ş.",
+        "calendar_date_text": "12-13-14 Şubat 2025",
+        "start_date": "2025-02-12",
+        "end_date": "2025-02-14",
+        "detail_url": "https://halkarz.com/balsu-gida-san-ve-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Tüketim",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 17.57,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Ziraat Yatırım Menkul Kıymetler A.Ş. İnfo Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 278000000.0,
+        "primary_lots": 112000000.0,
+        "secondary_lots": 166000000.0,
+        "retail_allocation_pct": 60.0,
+        "retail_allocation_tl": null,
+        "participant_count": 200209.0,
+        "float_pct": 25.0,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %40 Devam eden yurt içi ve yurt dışı yatırımlarına ek kaynak ve yurt içi yeni yatırımlara kaynak sağlamak. - %30 İşletme sermayesi. - %30 Banka kredilerinin ödenmesi. * İzahname, Sayfa 344.",
+        "price_stabilization": "Fiyat İstikrarı - 15 gün. (İnfo Yatırım Menkul Değerler A.Ş.) * İzahname, Sayfa 339.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 341.",
+        "offer_size_mn_tl": 4800.0,
+        "financials": {
+          "as_of": "2024-09-30",
+          "revenue_mn_tl": 9600.0,
+          "gross_profit_mn_tl": 1200.0,
+          "gross_margin": 0.125,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/02/tssd-balsu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/02/ftr-balsu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.yumpu.com/xx/embed/view/fF9RSuwvNdEGyUXt",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://www.yumpu.com/xx/embed/view/WXFBu4K8P3ynUZLm",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "ENDAE",
+      "company": "Enda Enerji Holding A.Ş.",
+      "listing_date": "2025-02-14",
+      "return_5d_pct": -11.75,
+      "return_20d_pct": -15.83,
+      "max_drawdown_20d_pct": 16.57,
+      "max_limit_up_streak": 1,
+      "is_streak_active": false,
+      "max_return_15d_pct": -2.81,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 17.12,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -1.83,
+      "latest_turnover_pct": 482.18,
+      "broker": "Tacirler Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "tacirler",
+      "sector": "Enerji",
+      "source_url": "https://halkarz.com/enda-enerji-holding-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/ENDAE.IS/history",
+      "ipo_price_tl": 17.44,
+      "fifth_session_date": "2025-02-20",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "ENDAE",
+        "company": "Enda Enerji Holding A.Ş.",
+        "calendar_date_text": "5-6-7 Şubat 2025",
+        "start_date": "2025-02-05",
+        "end_date": "2025-02-07",
+        "detail_url": "https://halkarz.com/enda-enerji-holding-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Enerji",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 17.44,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Tacirler Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 91719684.0,
+        "primary_lots": 100000000.0,
+        "secondary_lots": null,
+        "retail_allocation_pct": 80.0,
+        "retail_allocation_tl": null,
+        "participant_count": 286905.0,
+        "float_pct": 22.4,
+        "stated_discount_pct": 22.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %100 İşletme sermayesi. * İzahname, Sayfa 419.",
+        "price_stabilization": "Fiyat İstikrarı - 15 gün. * Net halka arz gelirinin %20'si. * İzahname, Sayfa 415.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 417.",
+        "offer_size_mn_tl": 1500.0,
+        "financials": {
+          "as_of": null,
+          "revenue_mn_tl": 1100.0,
+          "gross_profit_mn_tl": 180.1,
+          "gross_margin": 0.16372727272727272,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/01/tssd-ENDAE.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.endaenerji.com.tr/pdf/fiyat-tespit-raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.endaenerji.com.tr/pdf/ek2-fon-kullanim-yeri-raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu 31.12.2021",
+            "url": "https://www.endaenerji.com.tr/pdf/ek-3-1-enda-bagimsiz-denetim-raporu-31-12-2021.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu 31.12.2023",
+            "url": "https://www.endaenerji.com.tr/pdf/ek-3-2-enda-bagimsiz-denetim-raporu-31-12-2023.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu 30.06.2024",
+            "url": "https://www.endaenerji.com.tr/pdf/ek-3-3-enda-bagimsiz-denetim-raporu-30-06-2024.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu Sorumluluk Beyanı",
+            "url": "https://www.endaenerji.com.tr/pdf/ek-4-1-2021-bagimsiz-denetim-sorumluluk-beyanlar%C4%B1-pwc.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "2022-2023-202406 Bağımsız Denetim Beyanı",
+            "url": "https://www.endaenerji.com.tr/pdf/ek-4-2-2022-2023-202406-bagimsiz-denetim-be.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "VSNMD",
+      "company": "Vişne Madencilik Üretim San. ve Tic. A.Ş.",
+      "listing_date": "2025-02-11",
+      "return_5d_pct": 22.86,
+      "return_20d_pct": 300.64,
+      "max_drawdown_20d_pct": 10.0,
+      "max_limit_up_streak": 11,
+      "is_streak_active": false,
+      "max_return_15d_pct": 201.28,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 82.15,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 119.42,
+      "latest_turnover_pct": 681.2,
+      "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "tera",
+      "sector": null,
+      "source_url": "https://halkarz.com/visne-madencilik-uretim-san-ve-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/VSNMD.IS/history",
+      "ipo_price_tl": 37.44,
+      "fifth_session_date": "2025-02-17",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "VSNMD",
+        "company": "Vişne Madencilik Üretim San. ve Tic. A.Ş.",
+        "calendar_date_text": "3-4-5 Şubat 2025",
+        "start_date": "2025-02-03",
+        "end_date": "2025-02-05",
+        "detail_url": "https://halkarz.com/visne-madencilik-uretim-san-ve-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": null,
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 37.44,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 24000000.0,
+        "primary_lots": 17000000.0,
+        "secondary_lots": 7000000.0,
+        "retail_allocation_pct": 39.75,
+        "retail_allocation_tl": null,
+        "participant_count": 228291.0,
+        "float_pct": 20.51,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %40-45 Çelemli fabrikası hammadde hazırlama (kırma-eleme) tesis kurulumu, tüm destek ekipmanları ve altyapısı. - %3-7 Çelemli fabrikası hidrolik kireç karışım hattı kurulması. - %8-10 Narlı fabrikası kireç söndürme, sarım tesisi, büyük çuval dolumu, paketleme ve ambalaj tesisi. - %19-23 Narlı fabrikası mikronize kireç öğütme hattı ve ekipman kurulumu. - %20-25 Kredilerin kapatılması. * İzahname, Sayfa 255.",
+        "price_stabilization": "Fiyat İstikrarı - 15 gün. * Brüt halka arz gelirinin %10'u. * İzahname, Sayfa 250.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 252.",
+        "offer_size_mn_tl": 898.0,
+        "financials": {
+          "as_of": "2024-09-30",
+          "revenue_mn_tl": 829.8,
+          "gross_profit_mn_tl": 163.6,
+          "gross_margin": 0.19715594119064836,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/01/tssd-VSNMD.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://visnemadencilik.com/wp-content/uploads/2025/01/Visne-Madencilik-Uretim-Sanayi-ve-Ticaret-A.S.-Fiyat-Tespit-Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://visnemadencilik.com/wp-content/uploads/2025/01/EK-7-Fon-Kullanim-Yeri-Raporu-ve-Ilgili-Yonetim-Kurulu-Karari.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://visnemadencilik.com/wp-content/uploads/2025/01/EK-2-Sirketin-31.12.2021-31.12.2022-31.12.2023-ve-30.09.2024-Tarihlerinde-Sona-Eren-Donemlere-Iliskin-Finansal-Tablolar-ve-Ozel-Bagimsiz-Denetim-Raporlari.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Kuruluşu Sorumluluk Beyanı",
+            "url": "https://visnemadencilik.com/wp-content/uploads/2025/01/EK-3-Bagimsiz-Denetim-Kurulusu-Sorumluluk-Beyani.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "MOPAS",
+      "company": "Mopaş Marketcilik Gıda San. ve Tic. A.Ş.",
+      "listing_date": "2025-02-10",
+      "return_5d_pct": -7.26,
+      "return_20d_pct": -17.94,
+      "max_drawdown_20d_pct": 20.06,
+      "max_limit_up_streak": 1,
+      "is_streak_active": false,
+      "max_return_15d_pct": -2.57,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 31.62,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -9.66,
+      "latest_turnover_pct": 338.83,
+      "broker": "İnfo Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "info",
+      "sector": "Tüketim",
+      "source_url": "https://halkarz.com/mopas-marketcilik-gida-san-ve-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/MOPAS.IS/history",
+      "ipo_price_tl": 35.0,
+      "fifth_session_date": "2025-02-14",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "MOPAS",
+        "company": "Mopaş Marketcilik Gıda San. ve Tic. A.Ş.",
+        "calendar_date_text": "21-22-23 Ocak 2025",
+        "start_date": "2025-01-21",
+        "end_date": "2025-01-23",
+        "detail_url": "https://halkarz.com/mopas-marketcilik-gida-san-ve-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Tüketim",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 35.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "İnfo Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 57330000.0,
+        "primary_lots": 43000000.0,
+        "secondary_lots": 14330000.0,
+        "retail_allocation_pct": 67.0,
+        "retail_allocation_tl": null,
+        "participant_count": 235408.0,
+        "float_pct": 21.0,
+        "stated_discount_pct": 21.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %40-45 Yeni mağaza yatırımları. - %15-20 GES (Güneş Enerjisi Santrali) yatırımları. - %15 Tarımsal yatırımlar. - %15 İşletme sermayesi. - %10 E-ticaret ve teknoloji yatırımları. * İzahname, Sayfa 276.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 271.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 273.",
+        "offer_size_mn_tl": 2000.0,
+        "financials": {
+          "as_of": "2024-09-30",
+          "revenue_mn_tl": 9200.0,
+          "gross_profit_mn_tl": 2400.0,
+          "gross_margin": 0.2608695652173913,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/01/tssd-mopas.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/01/ftr-mopas.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://cdnprod.mopas.com.tr/sys-master-mopascdncontainer/hb1/hc6/9079995531294/Mopa%C5%9F-Fonun%20Kullan%C4%B1m%20Yerlerine%20%C4%B0li%C5%9Fkin%20YKK%20ve%20Raporu.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "DSTKF",
+      "company": "Destek Finans Faktoring A.Ş.",
+      "listing_date": "2025-02-06",
+      "return_5d_pct": 60.71,
+      "return_20d_pct": 170.33,
+      "max_drawdown_20d_pct": 7.76,
+      "max_limit_up_streak": 5,
+      "is_streak_active": false,
+      "max_return_15d_pct": 140.95,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 2044.0,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 4250.79,
+      "latest_turnover_pct": 237.97,
+      "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "tera",
+      "sector": "Finans",
+      "source_url": "https://halkarz.com/destek-finans-faktoring-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/DSTKF.IS/history",
+      "ipo_price_tl": 46.98,
+      "fifth_session_date": "2025-02-12",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "DSTKF",
+        "company": "Destek Finans Faktoring A.Ş.",
+        "calendar_date_text": "29-30-31 Ocak 2025",
+        "start_date": "2025-01-29",
+        "end_date": "2025-01-31",
+        "detail_url": "https://halkarz.com/destek-finans-faktoring-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Finans",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 46.98,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 83333333.0,
+        "primary_lots": 83333333.0,
+        "secondary_lots": null,
+        "retail_allocation_pct": 40.0,
+        "retail_allocation_tl": null,
+        "participant_count": 125801.0,
+        "float_pct": 25.0,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %100 Faktoring işlemlerinin finansmanı. * İzahname, Sayfa 201.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 199.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 200.",
+        "offer_size_mn_tl": 3900.0,
+        "financials": {
+          "as_of": "2024-09-30",
+          "revenue_mn_tl": 3300.0,
+          "gross_profit_mn_tl": 2100.0,
+          "gross_margin": 0.6363636363636364,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/01/tssd-DSTKF.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/01/ftr-DSTKF.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.destekfaktoring.com/pdf/fonun-kullanim-amacina-iliskin-rapor.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Beyanı Güreli",
+            "url": "https://www.destekfaktoring.com/pdf/ek-6a-bdbg.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Beyanı KPMG",
+            "url": "https://www.destekfaktoring.com/pdf/ek-6b-bdbkpmg.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "BIGEN",
+      "company": "Birleşim Grup Enerji Yatırımları A.Ş.",
+      "listing_date": "2025-02-05",
+      "return_5d_pct": 2.39,
+      "return_20d_pct": -4.2,
+      "max_drawdown_20d_pct": 31.87,
+      "max_limit_up_streak": 2,
+      "is_streak_active": false,
+      "max_return_15d_pct": 23.81,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 117.8,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 870.35,
+      "latest_turnover_pct": 1219.58,
+      "broker": "İnfo Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "info",
+      "sector": "Enerji",
+      "source_url": "https://halkarz.com/birlesim-grup-enerji-yatirimlari-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/BIGEN.IS/history",
+      "ipo_price_tl": 12.14,
+      "fifth_session_date": "2025-02-11",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "BIGEN",
+        "company": "Birleşim Grup Enerji Yatırımları A.Ş.",
+        "calendar_date_text": "28-29-30 Ocak 2025",
+        "start_date": "2025-01-28",
+        "end_date": "2025-01-30",
+        "detail_url": "https://halkarz.com/birlesim-grup-enerji-yatirimlari-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Enerji",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 12.14,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "İnfo Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 115500000.0,
+        "primary_lots": 77000000.0,
+        "secondary_lots": 38500000.0,
+        "retail_allocation_pct": 50.0,
+        "retail_allocation_tl": null,
+        "participant_count": 188384.0,
+        "float_pct": 20.02,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %35-45 Şirket ve bağlı ortaklıklarının finansal yapısının güçlendirilmesi ve finansman maliyetinin azaltılması. - %20-25 İnorganik bütümenin finansmanı. - %15-25 Elektrik enerjisi üretim kapasitesi artırımı. - %5-15 Yenileme yatırımları. - %5-15 İşletme sermayesi. * İzahname, Sayfa 331.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 327.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 328.",
+        "offer_size_mn_tl": 1400.0,
+        "financials": {
+          "as_of": "2024-09-30",
+          "revenue_mn_tl": 844.6,
+          "gross_profit_mn_tl": 321.2,
+          "gross_margin": 0.380298366090457,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/01/tssdBIGEN.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/01/ftr-BIGEN.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://birlesimgrupenerji.com/files/yatirimci_iliskileri/halka_arz/izahname_ekleri/ek_7_fonun_kullanm_yerlerine_likin_ykk_ve_rapor.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "SERNT",
+      "company": "Seranit Granit Seramik San. ve Tic. A.Ş.",
+      "listing_date": "2025-02-04",
+      "return_5d_pct": 31.75,
+      "return_20d_pct": -20.75,
+      "max_drawdown_20d_pct": 45.84,
+      "max_limit_up_streak": 4,
+      "is_streak_active": false,
+      "max_return_15d_pct": 46.33,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 8.66,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -27.83,
+      "latest_turnover_pct": 1095.15,
+      "broker": "Halk Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "halk",
+      "sector": "İnşaat ve yapı",
+      "source_url": "https://halkarz.com/seranit-granit-seramik-san-ve-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/SERNT.IS/history",
+      "ipo_price_tl": 12.0,
+      "fifth_session_date": "2025-02-10",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "SERNT",
+        "company": "Seranit Granit Seramik San. ve Tic. A.Ş.",
+        "calendar_date_text": "27-28-29 Ocak 2025",
+        "start_date": "2025-01-27",
+        "end_date": "2025-01-29",
+        "detail_url": "https://halkarz.com/seranit-granit-seramik-san-ve-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "İnşaat ve yapı",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 12.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Halk Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 150050000.0,
+        "primary_lots": 128600000.0,
+        "secondary_lots": 21450000.0,
+        "retail_allocation_pct": 75.0,
+        "retail_allocation_tl": null,
+        "participant_count": 153011.0,
+        "float_pct": 35.0,
+        "stated_discount_pct": 37.31,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %55 Finansal borçların ödenmesi. - %30 İşletme sermayesi. - %15 Satış pazarlama ağının güçlendirilmesi ve dijitalleşme süreci. * İzahname, Sayfa 274.",
+        "price_stabilization": "Fiyat İstikrarı - 21 gün. * İzahname, Sayfa 270.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 272.",
+        "offer_size_mn_tl": 1800.0,
+        "financials": {
+          "as_of": "2024-09-30",
+          "revenue_mn_tl": 1100.0,
+          "gross_profit_mn_tl": 536.8,
+          "gross_margin": 0.48799999999999993,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/01/tssd-SERNT.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/01/ftr-SERNT.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.vakifyatirim.com.tr/assets/file/news_25_01_2025_25.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu 30.09.2024",
+            "url": "https://www.seranit.com.tr/static/3-BAGIMSIZ-DENETiM-RAPORU-30-09-2024.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Kuruluşu Sorumluluk Beyanı",
+            "url": "https://www.seranit.com.tr/static/3-bagimsiz-denetim-kurulusu-sorumluluk-beyani.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "AKFIS",
+      "company": "Akfen İnşaat Turizm ve Ticaret A.Ş.",
+      "listing_date": "2025-02-04",
+      "return_5d_pct": -35.25,
+      "return_20d_pct": -44.29,
+      "max_drawdown_20d_pct": 46.51,
+      "max_limit_up_streak": 0,
+      "is_streak_active": false,
+      "max_return_15d_pct": -31.94,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 90.5,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 133.85,
+      "latest_turnover_pct": 367.29,
+      "broker": "Tera Yatırım Menkul Değerler A.Ş. Vakıf Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "tera",
+      "sector": "Tüketim",
+      "source_url": "https://halkarz.com/akfen-insaat-turizm-ve-ticaret-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/AKFIS.IS/history",
+      "ipo_price_tl": 38.7,
+      "fifth_session_date": "2025-02-10",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "AKFIS",
+        "company": "Akfen İnşaat Turizm ve Ticaret A.Ş.",
+        "calendar_date_text": "15-16-17 Ocak 2025",
+        "start_date": "2025-01-15",
+        "end_date": "2025-01-17",
+        "detail_url": "https://halkarz.com/akfen-insaat-turizm-ve-ticaret-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Tüketim",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 38.7,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Tera Yatırım Menkul Değerler A.Ş. Vakıf Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 95487612.0,
+        "primary_lots": 66841328.0,
+        "secondary_lots": 28646284.0,
+        "retail_allocation_pct": 40.0,
+        "retail_allocation_tl": null,
+        "participant_count": 260628.0,
+        "float_pct": 15.0,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %35-45 Finansal borçluluk seviyesinin azaltılması. - %55-65 Yatırım finansmanı. - %0-10 İşletme sermayesi. * İzahname, Sayfa 347.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 344.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 180 Gün, Ortaklar. * İzahname, Sayfa 346.",
+        "offer_size_mn_tl": 3700.0,
+        "financials": {
+          "as_of": "2024-09-30",
+          "revenue_mn_tl": 5200.0,
+          "gross_profit_mn_tl": 484.3,
+          "gross_margin": 0.09313461538461539,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2025/01/tssd-AKFIS.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://akfeninsaat.com.tr/wp-content/uploads/2025/01/AkfenInsaat-FTR_27.11.2024.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://akfeninsaat.com.tr/wp-content/uploads/2025/01/7-Fon-Kullanim-Yeri-Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://akfeninsaat.com.tr/wp-content/uploads/2025/01/3-Bagimsiz-Denetim-Raporu.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "GLRMK",
+      "company": "Gülermak Ağır Sanayi İnşaat ve Taahhüt A.Ş.",
+      "listing_date": "2025-01-17",
+      "return_5d_pct": 19.68,
+      "return_20d_pct": 12.96,
+      "max_drawdown_20d_pct": 9.09,
+      "max_limit_up_streak": 0,
+      "is_streak_active": false,
+      "max_return_15d_pct": 23.04,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 160.3,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 28.24,
+      "latest_turnover_pct": 751.03,
+      "broker": "Qnb Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "qnb",
+      "sector": "Sanayi",
+      "source_url": "https://halkarz.com/gulermak-agir-sanayi-insaat-ve-taahhut-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/GLRMK.IS/history",
+      "ipo_price_tl": 125.0,
+      "fifth_session_date": "2025-01-23",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "GLRMK",
+        "company": "Gülermak Ağır Sanayi İnşaat ve Taahhüt A.Ş.",
+        "calendar_date_text": "8-9-10 Ocak 2025",
+        "start_date": "2025-01-08",
+        "end_date": "2025-01-10",
+        "detail_url": "https://halkarz.com/gulermak-agir-sanayi-insaat-ve-taahhut-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Sanayi",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 125.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Qnb Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 32300000.0,
+        "primary_lots": 22600000.0,
+        "secondary_lots": 16160000.0,
+        "retail_allocation_pct": 40.0,
+        "retail_allocation_tl": null,
+        "participant_count": 595287.0,
+        "float_pct": 10.01,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %45-50 Makine ve ekipman alımı. - %30-35 KÖİ Projesi işletme sermayesi. - %20-25 Finansman maliyetinin azaltılması. * İzahname, Sayfa 283.",
+        "price_stabilization": "Fiyat İstikrarı - 10 gün. * Brüt halka arz gelirinin %20'si. * İzahname, Sayfa 278.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 280.",
+        "offer_size_mn_tl": 4800.0,
+        "financials": {
+          "as_of": "2024-09-30",
+          "revenue_mn_tl": 21100.0,
+          "gross_profit_mn_tl": 2700.0,
+          "gross_margin": 0.12796208530805686,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/12/TSSD-GLRMK.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.gulermak.com.tr/HalkaArzBilgileri/Fiyat%20Tespit%20Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.gulermak.com.tr/HalkaArzBilgileri/Ekler/Ek-6%20FKYR.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "EGEGY",
+      "company": "Egeyapı Avrupa Gayrimenkul Yatırım Ortaklığı A.Ş.",
+      "listing_date": "2025-01-14",
+      "return_5d_pct": 0.0,
+      "return_20d_pct": 2.4,
+      "max_drawdown_20d_pct": 9.58,
+      "max_limit_up_streak": 1,
+      "is_streak_active": false,
+      "max_return_15d_pct": 10.0,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 32.82,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 118.8,
+      "latest_turnover_pct": 749.53,
+      "broker": "Halk Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "halk",
+      "sector": "İnşaat ve yapı",
+      "source_url": "https://halkarz.com/egeyapi-avrupa-gayrimenkul-yatirim-ortakligi-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/EGEGY.IS/history",
+      "ipo_price_tl": 15.0,
+      "fifth_session_date": "2025-01-20",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "EGEGY",
+        "company": "Egeyapı Avrupa Gayrimenkul Yatırım Ortaklığı A.Ş.",
+        "calendar_date_text": "6-7-8 Ocak 2025",
+        "start_date": "2025-01-06",
+        "end_date": "2025-01-08",
+        "detail_url": "https://halkarz.com/egeyapi-avrupa-gayrimenkul-yatirim-ortakligi-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "İnşaat ve yapı",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 15.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Halk Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 61200000.0,
+        "primary_lots": 42200000.0,
+        "secondary_lots": 19000000.0,
+        "retail_allocation_pct": 60.0,
+        "retail_allocation_tl": null,
+        "participant_count": 348119.0,
+        "float_pct": 30.6,
+        "stated_discount_pct": 21.15,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %45 Modernyaka projesinin finansmanı. - %40 Kekliktepe projesinin finansmanı. - %10 Diğer projelerin finansmanı. - %5 Pazarlama ve genel yönetim giderlerinin finansmanı. * İzahname, Sayfa 207.",
+        "price_stabilization": "Fiyat İstikrarı - 21 gün. * Brüt halka arz gelirinin %20'si. * İzahname, Sayfa 203.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 205.",
+        "offer_size_mn_tl": 918.0,
+        "financials": {
+          "as_of": "2024-09-30",
+          "revenue_mn_tl": 84.9,
+          "gross_profit_mn_tl": 34.4,
+          "gross_margin": 0.4051825677267373,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/12/TSSD-EGEGY.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/12/ftr-EGEGY.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://egeyapigyo.com/egegyo/cdn/uploads/000006094_ek-8-fonun-kullanim-yeri_ykk.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://egeyapigyo.com/egegyo/cdn/uploads/000006075_ek-3-egeyapi-bdr.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "ARMGD",
+      "company": "Armada Gıda Ticaret Sanayi A.Ş.",
+      "listing_date": "2025-01-03",
+      "return_5d_pct": -4.1,
+      "return_20d_pct": -11.0,
+      "max_drawdown_20d_pct": 15.24,
+      "max_limit_up_streak": 0,
+      "is_streak_active": false,
+      "max_return_15d_pct": 0.05,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 197.6,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 394.0,
+      "latest_turnover_pct": 600.2,
+      "broker": "Global Menkul Değerler A.Ş.",
+      "broker_key": "global",
+      "sector": "Sanayi",
+      "source_url": "https://halkarz.com/armada-gida-ticaret-sanayi-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/ARMGD.IS/history",
+      "ipo_price_tl": 40.0,
+      "fifth_session_date": "2025-01-09",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "ARMGD",
+        "company": "Armada Gıda Ticaret Sanayi A.Ş.",
+        "calendar_date_text": "25-26-27 Aralık 2024",
+        "start_date": "2024-12-25",
+        "end_date": "2024-12-27",
+        "detail_url": "https://halkarz.com/armada-gida-ticaret-sanayi-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Sanayi",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 40.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Global Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 45830000.0,
+        "primary_lots": 43996843.0,
+        "secondary_lots": 10826658.0,
+        "retail_allocation_pct": 60.0,
+        "retail_allocation_tl": null,
+        "participant_count": 436025.0,
+        "float_pct": 20.0,
+        "stated_discount_pct": 24.1,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %40-50 Yatırımların fonlanması. - %45-50 İşletme sermayesi. * İzahname, Sayfa 307.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 301.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 303.",
+        "offer_size_mn_tl": 2190.0,
+        "financials": {
+          "as_of": "2024-09-30",
+          "revenue_mn_tl": 5400.0,
+          "gross_profit_mn_tl": 913.4,
+          "gross_margin": 0.16914814814814813,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/12/tssd-armda.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://armadafoods.com/files/EK9-Armada_FTR.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://armadafoods.com/files/EK7-Fon_Kullanim_Yeri_Raporu_ve_Ilgili_Yonetim_Kurulu_Karari.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Sorumluluk Beyanı",
+            "url": "https://armadafoods.com/files/EK4-Bagimsiz_Denetim_Kurulusu%E2%80%99nun_Sorumluluk_Beyani.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "SMRVA",
+      "company": "Sümer Varlık Yönetim A.Ş.",
+      "listing_date": "2024-12-23",
+      "return_5d_pct": -76.13,
+      "return_20d_pct": -76.49,
+      "max_drawdown_20d_pct": 79.17,
+      "max_limit_up_streak": 1,
+      "is_streak_active": false,
+      "max_return_15d_pct": -74.42,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 12.62,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -42.64,
+      "latest_turnover_pct": 7979.5,
+      "broker": "Şeker Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "seker",
+      "sector": null,
+      "source_url": "https://halkarz.com/sumer-varlik-yonetim-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/SMRVA.IS/history",
+      "ipo_price_tl": 22.0,
+      "fifth_session_date": "2024-12-27",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "SMRVA",
+        "company": "Sümer Varlık Yönetim A.Ş.",
+        "calendar_date_text": "12-13 Aralık 2024",
+        "start_date": "2024-12-12",
+        "end_date": "2024-12-13",
+        "detail_url": "https://halkarz.com/sumer-varlik-yonetim-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": null,
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 22.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Şeker Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 28000000.0,
+        "primary_lots": 18000000.0,
+        "secondary_lots": 10000000.0,
+        "retail_allocation_pct": null,
+        "retail_allocation_tl": null,
+        "participant_count": 392596.0,
+        "float_pct": 23.73,
+        "stated_discount_pct": 28.4,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %50 Yeni portföy alımları. - %50 Finansal borç ödemesi. * İzahname, Sayfa 200.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * İzahname, Sayfa 195.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 197.",
+        "offer_size_mn_tl": 616.0,
+        "financials": {},
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/12/SMRVA-TSSD.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://sumervarlik.com.tr/Uploads/Galeri_Pdf/8703b7c2-b32d-4ef7-92e0-3cdfe345d22dEk-7-Fiyat%20Tespit%20Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://sumervarlik.com.tr/Uploads/Galeri_Pdf/5e305eb2-0cb6-42d0-bc38-4bcd51843133Ek-5_Fonun_Kullan%C4%B1m_Yeri_Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Sorumluluk Beyanı",
+            "url": "https://sumervarlik.com.tr/Uploads/Galeri_Pdf/abf202b9-1bd1-4f1b-81c8-b161f166c821Ek-2_Finansal_Tablolara_Iliskin_Sorumluluk_Beyanlari.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "CGCAM",
+      "company": "Çağdaş Cam San. ve Tic. A.Ş.",
+      "listing_date": "2024-12-23",
+      "return_5d_pct": 64.0,
+      "return_20d_pct": 69.4,
+      "max_drawdown_20d_pct": 17.36,
+      "max_limit_up_streak": 3,
+      "is_streak_active": false,
+      "max_return_15d_pct": 81.5,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 45.2,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 126.0,
+      "latest_turnover_pct": 2106.75,
+      "broker": "Deniz Yatırım Menkul Kıymetler A.Ş.",
+      "broker_key": "deniz",
+      "sector": null,
+      "source_url": "https://halkarz.com/cagdas-cam-san-ve-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/CGCAM.IS/history",
+      "ipo_price_tl": 20.0,
+      "fifth_session_date": "2024-12-27",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "CGCAM",
+        "company": "Çağdaş Cam San. ve Tic. A.Ş.",
+        "calendar_date_text": "11-12 Aralık 2024",
+        "start_date": "2024-12-11",
+        "end_date": "2024-12-12",
+        "detail_url": "https://halkarz.com/cagdas-cam-san-ve-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": null,
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 20.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Deniz Yatırım Menkul Kıymetler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 42000000.0,
+        "primary_lots": 31000000.0,
+        "secondary_lots": 11000000.0,
+        "retail_allocation_pct": null,
+        "retail_allocation_tl": null,
+        "participant_count": 628813.0,
+        "float_pct": 25.0,
+        "stated_discount_pct": 27.8,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %30-35 Bina ve inşaat yatırımı. - %12-16 Makina ve ekipman yatırımı. - %10-15 Çatı üzeri ve arazi GES (Güneş Enerji Santrali) yatırımı. - %1-3 Verimlilik artırıcı dijital ve yalın üretim dönüşümü. - %36-42 İşletme sermayesi. * İzahname, Sayfa 228.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %20'si. * İzahname, Sayfa 223.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 225.",
+        "offer_size_mn_tl": 840.0,
+        "financials": {
+          "as_of": "2024-09-30",
+          "revenue_mn_tl": 1500.0,
+          "gross_profit_mn_tl": 422.4,
+          "gross_margin": 0.28159999999999996,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/12/CGCAM-tssd.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/12/CGCAM-ftr.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://tr.cagdascam.com/_files/ugd/a88b99_378c9c5d7f0940179159acebe91eb96c.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "BINBN",
+      "company": "(binbin) Bin Ulaşım ve Akıllı Şehir Teknolojileri A.Ş.",
+      "listing_date": "2024-10-11",
+      "return_5d_pct": -0.0,
+      "return_20d_pct": 11.49,
+      "max_drawdown_20d_pct": 6.06,
+      "max_limit_up_streak": 1,
+      "is_streak_active": false,
+      "max_return_15d_pct": 18.67,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 174.4,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 89.87,
+      "latest_turnover_pct": 415.28,
+      "broker": "Bulls Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "bulls",
+      "sector": "Teknoloji",
+      "source_url": "https://halkarz.com/bin-ulasim-ve-akilli-sehir-teknolojileri-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/BINBN.IS/history",
+      "ipo_price_tl": 91.85,
+      "fifth_session_date": "2024-10-17",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "BINBN",
+        "company": "(binbin) Bin Ulaşım ve Akıllı Şehir Teknolojileri A.Ş.",
+        "calendar_date_text": "3-4 Ekim 2024",
+        "start_date": "2024-10-03",
+        "end_date": "2024-10-04",
+        "detail_url": "https://halkarz.com/bin-ulasim-ve-akilli-sehir-teknolojileri-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Teknoloji",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 91.85,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Bulls Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 17000000.0,
+        "primary_lots": 12000000.0,
+        "secondary_lots": 5000000.0,
+        "retail_allocation_pct": null,
+        "retail_allocation_tl": null,
+        "participant_count": 278910.0,
+        "float_pct": 15.18,
+        "stated_discount_pct": 23.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %20 Alternatif yatırım fırsatlarının değerlendirilmesi. - %30 Makina, taşıt, cihaz vb. mal ve hizmet alımı. - %30 Ticari borçlar ve grup şirketlerine olan borçların ödenmesi. - %20 İşletme sermayesi. * İzahname, Sayfa 184.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 182.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 182.",
+        "offer_size_mn_tl": 1500.0,
+        "financials": {
+          "as_of": "2024-06-30",
+          "revenue_mn_tl": 362.9,
+          "gross_profit_mn_tl": 161.1,
+          "gross_margin": 0.44392394599063106,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://cdn.prod.website-files.com/62ea24c4131e427b9414107c/66f5c79c5dccf0acee3dc927_Onayl%C4%B1%20Tasarruf%20Sahiplerine%20Sat%C4%B1s%CC%A7%20Duyurusu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://storage.googleapis.com/logolar/Website%20URL/Fiyat%20Tespit%20Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://storage.googleapis.com/logolar/Website%20URL/Fon%20Kullan%C4%B1m%20Yo%CC%88netim%20Kurulu%20Karar%C4%B1%20ve%20Fon%20Kullan%C4%B1m%20Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu - 2024/6,2023,2022,2021",
+            "url": "https://storage.googleapis.com/logolar/Website%20URL/30.06.2024%20ve%2031.12.2023%2C%2031.12.2022%2C%2031.12.2021%20Tarihli%20Finansal%20Tablolar%20ve%20Bag%CC%86%C4%B1ms%C4%B1z%20Denetim%20Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Kuruluşu Sorumluluk Beyanı",
+            "url": "https://storage.googleapis.com/logolar/Website%20URL/Bag%CC%86%C4%B1ms%C4%B1z%20Denetim%20Kurulus%CC%A7u%20Sorumluluk%20Beyan%C4%B1.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "GUNDG",
+      "company": "Gündoğdu Gıda Süt Ürünleri San. ve Dış Tic. A.Ş.",
+      "listing_date": "2024-10-01",
+      "return_5d_pct": 44.57,
+      "return_20d_pct": null,
+      "max_drawdown_20d_pct": null,
+      "max_limit_up_streak": 1,
+      "is_streak_active": false,
+      "max_return_15d_pct": 48.57,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 2149.0,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 6040.0,
+      "latest_turnover_pct": 81.91,
+      "broker": "Pusula Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "pusula",
+      "sector": "Tüketim",
+      "source_url": "https://halkarz.com/gundogdu-gida-sut-urunleri-san-ve-dis-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/GUNDG.IS/history",
+      "ipo_price_tl": 35.0,
+      "fifth_session_date": "2024-10-04",
+      "observation_count": 4,
+      "is_partial_5d": true,
+      "offer_snapshot": {
+        "ticker": "GUNDG",
+        "company": "Gündoğdu Gıda Süt Ürünleri San. ve Dış Tic. A.Ş.",
+        "calendar_date_text": "15-16 Ağustos 2024",
+        "start_date": "2024-08-15",
+        "end_date": "2024-08-16",
+        "detail_url": "https://halkarz.com/gundogdu-gida-sut-urunleri-san-ve-dis-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Tüketim",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 35.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Pusula Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 10000000.0,
+        "primary_lots": 9000000.0,
+        "secondary_lots": 1000000.0,
+        "retail_allocation_pct": null,
+        "retail_allocation_tl": null,
+        "participant_count": 597940.0,
+        "float_pct": 25.64,
+        "stated_discount_pct": 29.51,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %25 Çiğ süt alımları. - %50 Yem alımları. - %25 Peşin alım esasıyla alınarak üretimde kullanılan ambalaj, koli vb. sarf malzemelerinin alımı. * İzahname, Sayfa 261.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 258.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 259.",
+        "offer_size_mn_tl": 350.0,
+        "financials": {},
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.gundogdugida.com/2-tasarruf-sahiplerine-satis-duyurusu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.gundogdugida.com/3-fiyat-tespit-raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.gundogdugida.com/7-yonetim-kurulu-karari-fon-kullanim-raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporları Sorumluluk Beyanları",
+            "url": "https://www.gundogdugida.com/5-bagimsiz-denetim-sirketi-sorumluluk-beyani.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "DURKN",
+      "company": "Durukan Şekerleme San. ve Tic. A.Ş.",
+      "listing_date": "2024-09-18",
+      "return_5d_pct": 0.65,
+      "return_20d_pct": -28.47,
+      "max_drawdown_20d_pct": 47.21,
+      "max_limit_up_streak": 2,
+      "is_streak_active": false,
+      "max_return_15d_pct": 32.94,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 19.99,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 17.59,
+      "latest_turnover_pct": 1688.65,
+      "broker": "Deniz Yatırım Menkul Kıymetler A.Ş.",
+      "broker_key": "deniz",
+      "sector": null,
+      "source_url": "https://halkarz.com/durukan-sekerleme-san-ve-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/DURKN.IS/history",
+      "ipo_price_tl": 17.0,
+      "fifth_session_date": "2024-09-24",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "DURKN",
+        "company": "Durukan Şekerleme San. ve Tic. A.Ş.",
+        "calendar_date_text": "11-12 Eylül 2024",
+        "start_date": "2024-09-11",
+        "end_date": "2024-09-12",
+        "detail_url": "https://halkarz.com/durukan-sekerleme-san-ve-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": null,
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 17.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Deniz Yatırım Menkul Kıymetler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 42500000.0,
+        "primary_lots": 32500000.0,
+        "secondary_lots": 10000000.0,
+        "retail_allocation_pct": null,
+        "retail_allocation_tl": null,
+        "participant_count": 689338.0,
+        "float_pct": 32.07,
+        "stated_discount_pct": 30.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %40-45 Üretim kapasitesi artırıcı yatırımlar ve/veya güneş enerjisi yatırımı (GES). - %35-40 İşletme sermayesi. - %15-25 Finansal borçların ödenmesi. * İzahname, Sayfa 253.",
+        "price_stabilization": "Fiyat İstikrarı - 15 gün. * Brüt halka arz gelirinin %11,76'ı. * İzahname, Sayfa 249.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 180 Gün, Ortaklar. * İzahname, Sayfa 250.",
+        "offer_size_mn_tl": 722.0,
+        "financials": {},
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/09/tssd-DURKN.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.denizyatirim.com/asset/AnnouncementsPdf/1725638993.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.denizyatirim.com/asset/AnnouncementsPdf/1725639782.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://www.denizyatirim.com/asset/AnnouncementsPdf/1725639923.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "CEMZY",
+      "company": "Cem Zeytin A.Ş.",
+      "listing_date": "2024-09-10",
+      "return_5d_pct": -79.47,
+      "return_20d_pct": -88.64,
+      "max_drawdown_20d_pct": 88.64,
+      "max_limit_up_streak": 1,
+      "is_streak_active": false,
+      "max_return_15d_pct": -76.74,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 12.86,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -15.95,
+      "latest_turnover_pct": 10525.37,
+      "broker": "Bulls Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "bulls",
+      "sector": null,
+      "source_url": "https://halkarz.com/cem-zeytin-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/CEMZY.IS/history",
+      "ipo_price_tl": 15.3,
+      "fifth_session_date": "2024-09-16",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "CEMZY",
+        "company": "Cem Zeytin A.Ş.",
+        "calendar_date_text": "29 Ağustos, 2-3 Eylül 2024",
+        "start_date": "2024-08-29",
+        "end_date": "2024-09-03",
+        "detail_url": "https://halkarz.com/cem-zeytin-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": null,
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 15.3,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Bulls Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 100000000.0,
+        "primary_lots": 100000000.0,
+        "secondary_lots": null,
+        "retail_allocation_pct": 60.0,
+        "retail_allocation_tl": null,
+        "participant_count": 437342.0,
+        "float_pct": 24.88,
+        "stated_discount_pct": 25.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %35-40 İşletme kredilerinin geri ödenmesi. - %5-10 Çatı üzeri GES (Güneş Enerjisi Santrali) yatırımı. - %10-15 Mut tesisi. - %5-10 Tesis ve ekipman modernizasyonu. - %30-35 İşletme sermayesi. * İzahname, Sayfa 257.",
+        "price_stabilization": "Fiyat İstikrarı - 15 gün. * Brüt halka arz gelirinin %20'si. * İzahname, Sayfa 254.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 255.",
+        "offer_size_mn_tl": 1500.0,
+        "financials": {},
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.cemzeytin.com.tr/files/tssdpdf_24-08-2024_18-37-16.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.cemzeytin.com.tr/files/cem-zeytin-as-fiyat-tespit-raporu-23082024-imzalipdf_24-08-2024_18-45-51.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.cemzeytin.com.tr/files/cem-zeytin-ykk-2024-18-fon-kullanim-yerine-iliskinpdf_24-08-2024_17-50-07.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://www.cemzeytin.com.tr/files/cem-zeytin-bagimsiz-denetim-raporupdf_24-08-2024_17-36-43.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "OZATD",
+      "company": "Özata Denizcilik San. ve Tic. A.Ş.",
+      "listing_date": "2024-09-05",
+      "return_5d_pct": 60.86,
+      "return_20d_pct": -21.76,
+      "max_drawdown_20d_pct": 51.36,
+      "max_limit_up_streak": 5,
+      "is_streak_active": false,
+      "max_return_15d_pct": 60.86,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 2870.0,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 2633.33,
+      "latest_turnover_pct": 1672.38,
+      "broker": "Vakıf Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "vakif",
+      "sector": null,
+      "source_url": "https://halkarz.com/ozata-denizcilik-san-ve-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/OZATD.IS/history",
+      "ipo_price_tl": 105.0,
+      "fifth_session_date": "2024-09-11",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "OZATD",
+        "company": "Özata Denizcilik San. ve Tic. A.Ş.",
+        "calendar_date_text": "27-28-29 Ağustos 2024",
+        "start_date": "2024-08-27",
+        "end_date": "2024-08-29",
+        "detail_url": "https://halkarz.com/ozata-denizcilik-san-ve-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": null,
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 105.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Vakıf Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 13350000.0,
+        "primary_lots": 11350000.0,
+        "secondary_lots": 2000000.0,
+        "retail_allocation_pct": 50.0,
+        "retail_allocation_tl": null,
+        "participant_count": 618855.0,
+        "float_pct": 18.71,
+        "stated_discount_pct": 35.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %40-45 Finansman giderlerinin azaltılması. - %20-25 Üst yapı ve alt yapı yatırımları. - %15-20 GES (Güneş Enerjisi Santrali) proje yatırımı. - %15-20 İşletme sermayesi. * İzahanme, Sayfa 256.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %20'si. * İzahname, Sayfa 252.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 254.",
+        "offer_size_mn_tl": 1400.0,
+        "financials": {
+          "as_of": "2024-03-31",
+          "revenue_mn_tl": 350.0,
+          "gross_profit_mn_tl": 77.4,
+          "gross_margin": 0.22114285714285717,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://www.ozatadenizcilik.com/wp-content/uploads/2024/08/TASARUF-SAHIPLERINE-SATIS-DUYURUSU.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://www.ozatadenizcilik.com/wp-content/uploads/2024/08/ftr.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://www.ozatadenizcilik.com/wp-content/uploads/2024/05/FON-KULLANIM-PAYI-YKK.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Raporu",
+            "url": "https://www.ozatadenizcilik.com/wp-content/uploads/2024/08/2023-BAGIMSIZ-DENETCI-RAPORU.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "2024/06 - Bağımsız Denetim Raporu",
+            "url": "https://www.ozatadenizcilik.com/wp-content/uploads/2024/08/OZATA-DENIZCILIK-SANAYI-VE-TIC.-VE-A.S.-30-HAZIRAN-2024-OZEL-BAGIMSIZ-DENETCI-RAPORU.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "AHSGY",
+      "company": "Ahes Gayrimenkul Yatırım Ortaklığı A.Ş.",
+      "listing_date": "2024-08-29",
+      "return_5d_pct": -72.07,
+      "return_20d_pct": -72.89,
+      "max_drawdown_20d_pct": 72.91,
+      "max_limit_up_streak": 0,
+      "is_streak_active": false,
+      "max_return_15d_pct": -71.39,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 20.92,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -16.98,
+      "latest_turnover_pct": 2475.79,
+      "broker": "Halk Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "halk",
+      "sector": "Finans",
+      "source_url": "https://halkarz.com/ahes-gayrimenkul-yatirim-ortakligi-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/AHSGY.IS/history",
+      "ipo_price_tl": 25.2,
+      "fifth_session_date": "2024-09-05",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "AHSGY",
+        "company": "Ahes Gayrimenkul Yatırım Ortaklığı A.Ş.",
+        "calendar_date_text": "21-22-23 Ağustos 2024",
+        "start_date": "2024-08-21",
+        "end_date": "2024-08-23",
+        "detail_url": "https://halkarz.com/ahes-gayrimenkul-yatirim-ortakligi-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Finans",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 25.2,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Halk Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 50000000.0,
+        "primary_lots": 50000000.0,
+        "secondary_lots": null,
+        "retail_allocation_pct": 75.0,
+        "retail_allocation_tl": null,
+        "participant_count": 389798.0,
+        "float_pct": 25.64,
+        "stated_discount_pct": 19.94,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %10-15 Finansal borç ödemesi. - %10-15 İştirak firmalarının sermaye ödemeleri. - %75-80 Mevcut arsaların geliştirme ve inşaat finansmanı. - %0-5 İşletme sermayesi. * İzahname, Sayfa 207.",
+        "price_stabilization": "Fiyat İstikrarı - 21 gün. * Brüt halka arz gelirinin %20'si. * İzahname, Sayfa 203.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 204.",
+        "offer_size_mn_tl": 1200.0,
+        "financials": {
+          "as_of": "2024-03-31",
+          "revenue_mn_tl": 6.9,
+          "gross_profit_mn_tl": 6.9,
+          "gross_margin": 1.0,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/08/tssd-ahsgy.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/08/ftr-ahsgy.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://ahesgyo.com/wp-content/uploads/2024/08/EK6-Fon-Kullanim-Yeri.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Sorumluluk Beyanı",
+            "url": "https://ahesgyo.com/wp-content/uploads/2024/08/EK4-Ram-Bagimsiz-Denetim-Sorumluluk-Beyani.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "TCKRC",
+      "company": "Kıraç Galvaniz Telekominikasyon Metal Makine İnşaat Elektrik San. ve Tic. A.Ş.",
+      "listing_date": "2024-08-26",
+      "return_5d_pct": 12.17,
+      "return_20d_pct": 8.67,
+      "max_drawdown_20d_pct": 13.56,
+      "max_limit_up_streak": 1,
+      "is_streak_active": false,
+      "max_return_15d_pct": 19.83,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 140.4,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 485.0,
+      "latest_turnover_pct": 1468.09,
+      "broker": "İnfo Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "info",
+      "sector": "Enerji",
+      "source_url": "https://halkarz.com/kirac-galvaniz-telekominikasyon-metal-makine-insaat-elektrik-san-ve-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/TCKRC.IS/history",
+      "ipo_price_tl": 24.0,
+      "fifth_session_date": "2024-09-02",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "TCKRC",
+        "company": "Kıraç Galvaniz Telekominikasyon Metal Makine İnşaat Elektrik San. ve Tic. A.Ş.",
+        "calendar_date_text": "14-15 Ağustos 2024",
+        "start_date": "2024-08-14",
+        "end_date": "2024-08-15",
+        "detail_url": "https://halkarz.com/kirac-galvaniz-telekominikasyon-metal-makine-insaat-elektrik-san-ve-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Enerji",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 24.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "İnfo Yatırım Menkul Değerler A.Ş.",
+        "market": "Yıldız Pazar",
+        "offered_lots": 45000000.0,
+        "primary_lots": 45000000.0,
+        "secondary_lots": null,
+        "retail_allocation_pct": 60.0,
+        "retail_allocation_tl": null,
+        "participant_count": 667177.0,
+        "float_pct": 26.47,
+        "stated_discount_pct": 27.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %45 Devam eden tesis ve makine yatırımları. - %40 İşletme sermayesi. - %15 Finansal borç ödemeleri. * İzahname, Sayfa 233.",
+        "price_stabilization": "Fiyat İstikrarı - Planlanmamaktadır. * İzahname, Sayfa 230.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 231.",
+        "offer_size_mn_tl": 1000.0,
+        "financials": {
+          "as_of": "2024-03-31",
+          "revenue_mn_tl": 634.6,
+          "gross_profit_mn_tl": 139.2,
+          "gross_margin": 0.21935077213993065,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/08/tssd-TCKRC.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/08/ftr-tckrc.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://tck.com.tr/files/catalogs/Ek-7%20Fonun%20Kullan%C4%B1m%20Yerlerine%20%C4%B0li%C5%9Fkin%20YKK%20ve%20Raporu.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Bağımsız Denetim Kuruluşu Sorumluluk Beyanı",
+            "url": "https://tck.com.tr/files/catalogs/Ek-4%20K%C4%B1ra%C3%A7%20Galvaniz-Ba%C4%9F%C4%B1ms%C4%B1z%20Denet%C3%A7i%20Sorumluluk%20Beyan%C4%B1.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "BAHKM",
+      "company": "Bahadır Kimya San. ve Tic. A.Ş.",
+      "listing_date": "2024-08-13",
+      "return_5d_pct": 60.88,
+      "return_20d_pct": 21.18,
+      "max_drawdown_20d_pct": 31.08,
+      "max_limit_up_streak": 5,
+      "is_streak_active": false,
+      "max_return_15d_pct": 60.88,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 118.8,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": 132.94,
+      "latest_turnover_pct": 1605.81,
+      "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "tera",
+      "sector": "Sanayi",
+      "source_url": "https://halkarz.com/bahadir-kimya-san-ve-tic-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/BAHKM.IS/history",
+      "ipo_price_tl": 51.0,
+      "fifth_session_date": "2024-08-19",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "BAHKM",
+        "company": "Bahadır Kimya San. ve Tic. A.Ş.",
+        "calendar_date_text": "5-6-7 Ağustos 2024",
+        "start_date": "2024-08-05",
+        "end_date": "2024-08-07",
+        "detail_url": "https://halkarz.com/bahadir-kimya-san-ve-tic-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": "Sanayi",
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 51.0,
+        "distribution_method": "Eşit Dağıtım **",
+        "broker": "Tera Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 16000000.0,
+        "primary_lots": 10000000.0,
+        "secondary_lots": 6000000.0,
+        "retail_allocation_pct": 50.0,
+        "retail_allocation_tl": null,
+        "participant_count": 373692.0,
+        "float_pct": 29.09,
+        "stated_discount_pct": 20.0,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %20-30 Yeni fabrika yatırımı ve diğer alternatif yatırım fırsatlarının değerlendirilmesi. - %60-70 Hammadde tedariki. - %10-20 İşletme sermayesi. * İzahname, Sayfa 198.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * Brüt halka arz gelirinin %20'si. * İzahname, Sayfa 195.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 197.",
+        "offer_size_mn_tl": 816.0,
+        "financials": {
+          "as_of": "2024-03-31",
+          "revenue_mn_tl": 93.3,
+          "gross_profit_mn_tl": 22.5,
+          "gross_margin": 0.24115755627009647,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/08/tssd-bahadir.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/08/ftr-bahadir.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://bahadirkimya.com.tr/download/ek-5-fon-kullanim-yeri-raporu-ve-ilgili-yonetim-kurulu-karari.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    },
+    {
+      "ticker": "DCTTR",
+      "company": "Dct Trading Dış Ticaret A.Ş.",
+      "listing_date": "2024-07-31",
+      "return_5d_pct": -46.38,
+      "return_20d_pct": -44.81,
+      "max_drawdown_20d_pct": 63.33,
+      "max_limit_up_streak": 5,
+      "is_streak_active": false,
+      "max_return_15d_pct": -37.9,
+      "limit_up_method": "İlk 20 seansta önceki kapanışa göre en az %9,5 artan kapanışların en uzun ardışık serisi; resmî tavan sayısı değildir.",
+      "latest_close_tl": 12.19,
+      "latest_close_date": "2026-07-21",
+      "return_since_ipo_pct": -12.93,
+      "latest_turnover_pct": 6274.57,
+      "broker": "Halk Yatırım Menkul Değerler A.Ş.",
+      "broker_key": "halk",
+      "sector": null,
+      "source_url": "https://halkarz.com/dct-trading-dis-ticaret-a-s/",
+      "price_source_url": "https://finance.yahoo.com/quote/DCTTR.IS/history",
+      "ipo_price_tl": 14.0,
+      "fifth_session_date": "2024-08-06",
+      "observation_count": 20,
+      "is_partial_5d": false,
+      "offer_snapshot": {
+        "ticker": "DCTTR",
+        "company": "Dct Trading Dış Ticaret A.Ş.",
+        "calendar_date_text": "25-26 Temmuz 2024",
+        "start_date": "2024-07-25",
+        "end_date": "2024-07-26",
+        "detail_url": "https://halkarz.com/dct-trading-dis-ticaret-a-s/",
+        "calendar_source": "https://halkarz.com/",
+        "sector": null,
+        "sector_source": "Şirket adından geniş sınıf eşlemesi (doğrulanmalı)",
+        "ipo_price_tl": 14.0,
+        "distribution_method": "Eşit Dağıtım",
+        "broker": "Halk Yatırım Menkul Değerler A.Ş.",
+        "market": "Ana Pazar",
+        "offered_lots": 37500000.0,
+        "primary_lots": 30000000.0,
+        "secondary_lots": 7500000.0,
+        "retail_allocation_pct": null,
+        "retail_allocation_tl": null,
+        "participant_count": 401284.0,
+        "float_pct": 28.85,
+        "stated_discount_pct": 39.43,
+        "use_of_proceeds": "Fonun Kullanım Yeri - %40 Çırçır fabrikası, depo ve ekipmanları yatırımı. - %10 Çeşitli şirketlerin paylarının satın alınması ve/veya iştirak edilmesi ve/veya yeni ortaklıklar kurulması. - %10 Üretim kapasite ve verimlilik artırımı, güneş enerjisi santrali (GES) yatırımları. - %40 İşletme sermayesi. * İzahname, Sayfa 162.",
+        "price_stabilization": "Fiyat İstikrarı - 30 gün. * İzahname, Sayfa 158.",
+        "lockup": "Satmama Taahhüdü - 1 Yıl, İhraççı. - 1 Yıl, Ortaklar. * İzahname, Sayfa 160.",
+        "offer_size_mn_tl": 525.0,
+        "financials": {
+          "as_of": "2024-03-31",
+          "revenue_mn_tl": 809.0,
+          "gross_profit_mn_tl": 30.6,
+          "gross_margin": 0.037824474660074166,
+          "source": "HalkArz detay sayfasındaki izahname özeti; resmi belge ile doğrulanmalı."
+        },
+        "documents": [
+          {
+            "name": "Tasarruf Sahiplerine Satış Duyurusu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/07/tssd-dcttr.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fiyat Tespit Raporu",
+            "url": "https://halkarz.com/wp-content/uploads/2024/07/ftr-dcttr.pdf",
+            "tier": "issuer"
+          },
+          {
+            "name": "Fon Kullanım Yeri Raporu",
+            "url": "https://dcttrading.com.tr/asset/docs/EK8.pdf",
+            "tier": "issuer"
+          }
+        ]
+      }
+    }
+  ]
+}
