@@ -193,13 +193,7 @@ function renderHistory() {
     row.setAttribute("aria-label", `${offer.ticker} detaylı rapor`);
 
     let allocationText = "";
-    const lotPerPerson = offer.realised_lot_per_person;
-    const tlPerPerson = offer.realised_tl_per_person;
-    
-    if (lotPerPerson) {
-      const prefix = offer.is_lot_average ? "Ort." : "Max";
-      allocationText = ` / ${prefix} ${lotPerPerson} Lot (${tlPerPerson ? Math.round(tlPerPerson) : Math.round(lotPerPerson * (offer.ipo_price_tl || 1))}₺)`;
-    } else if (offer.retail_allocation_tl) {
+    if (offer.retail_allocation_tl) {
       if (offer.retail_allocation_tl > 10000) {
         allocationText = " / İstendiği kadar";
       } else if (offer.ipo_price_tl) {
