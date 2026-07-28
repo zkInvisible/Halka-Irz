@@ -526,17 +526,14 @@ class HalkarzSource:
             "source_fetched_from": entry["detail_url"],
         }
 
-        # Kullanıcı talebi: Max lot bulunamadıysa dağıtım tablosundan ortalama hesapla.
+        # Kişi başı lot kaynakta yazmıyorsa dağıtım tablosundan hesapla.
         if parsed["realised_lot_per_person"] is None:
             lots = allocation.get("retail_lots")
             people = allocation.get("retail_participant_count")
             if lots and people:
                 parsed["realised_lot_per_person"] = round(lots / people, 2)
-                parsed["is_lot_average"] = True
                 if price_low:
                     parsed["realised_tl_per_person"] = round(lots / people * price_low, 2)
-        else:
-            parsed["is_lot_average"] = False
 
         parsed["retail_lot_pool"] = self._retail_lot_pool(
             projections=distribution.get("projections", []),
@@ -704,7 +701,7 @@ class HalkarzSource:
             150 Bin katılım ~ 266 Lot (12794 TL). - 250 Bin katılım ~ 160 Lot ...
         """
         pattern = re.compile(
-            r"(\d[\d.]*(?:,\d+)?)\s*(bin|milyon)?\s*(?:katılım\w*)?\s*[~≈\-]\s*"
+            r"(\d[\d.]*(?:,\d+)?)\s*(bin|milyon)?\s*(?:katılım\w*)?\s*[~≈]\s*"
             r"(\d[\d.]*(?:,\d+)?)\s*Lot\s*\(\s*(\d[\d.]*(?:,\d+)?)\s*TL\s*\)",
             re.IGNORECASE,
         )
