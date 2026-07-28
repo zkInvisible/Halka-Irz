@@ -380,7 +380,7 @@ def outcome_from_offer(
         listing_date = date.fromisoformat(raw_listing)
     except (TypeError, ValueError):
         return None, "tarih_yok"
-    if listing_date >= reference_date:
+    if listing_date > reference_date:
         return None, "islem_baslamadi"
 
     closes = repository.opening_series(ticker, listing_date, reference_date)
