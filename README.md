@@ -1,4 +1,4 @@
-# Arz Pusulası
+# [Arz Pusulası](https://halka-irz.onrender.com/)
 
 BIST halka arzlarını **yatırım tavsiyesi üretmeden**, kaynak, veri kalitesi ve risk kontrolü
 üzerinden inceleyen karar-destek uygulaması. Eksik veriyi puanla doldurmaz; belge tamamlama
