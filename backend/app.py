@@ -43,7 +43,7 @@ from pipeline import load_report, load_report_meta, refresh_report, report_age_h
 db = SQLAlchemy()
 
 TURKEY_TZ = timezone(timedelta(hours=3))
-DAILY_REFRESH_HOUR = 21          # Türkiye saati ile akşam yenilemesi
+REFRESH_HOURS = (2, 10, 18)      # Türkiye saati ile yenileme saatleri
 MAX_REPORT_AGE_HOURS = 12        # Bu yaşı geçen rapor otomatik tazelenir
 KEEPALIVE_MINUTES = 13           # Render ücretsiz katmanı 15 dk sonra uykuya alır
 MANUAL_COOLDOWN_SECONDS = 180
@@ -265,10 +265,10 @@ def background_scheduler() -> None:
         if manager.state["running"]:
             continue
 
-        # 2) Akşam yenilemesi (Türkiye saati).
-        if now_tr.hour >= DAILY_REFRESH_HOUR and last_daily_refresh != now_tr.date():
-            last_daily_refresh = now_tr.date()
-            manager.trigger("günlük")
+        # 2) Periyodik yenilemeler (Türkiye saati).
+        if now_tr.hour in REFRESH_HOURS and last_daily_refresh != now_tr.hour:
+            last_daily_refresh = now_tr.hour
+            manager.trigger(f"otomatik_{now_tr.hour}")
             continue
 
         # 3) Emniyet ağı: sunucu akşam yenilemesini kaçırdıysa veya yeni
